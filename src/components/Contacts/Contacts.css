@@ -1,0 +1,46 @@
+/* Contact section*/
+.contact-section {
+    background: #fafcff;
+    position: relative;
+    padding:  3rem 0;
+
+  }
+  
+  .contact-section .title {
+    color: #273755;
+  }
+  
+  .contacts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 2.5rem;
+    grid-column-gap: 50px;
+  }
+  
+  .contacts-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+  
+  }
+  
+  #contact-form .field-bag {
+      margin-bottom: 20px;
+  }
+  
+ 
+  
+  @media screen and (min-width: 576px) {
+    .contact-section{
+      padding: 5rem 3rem;
+    }
+  
+  }
+  @media screen and (min-width: 992px) {
+  
+    .contact-section{
+      padding: 5rem 3rem;
+    }
+    
+  
+  }

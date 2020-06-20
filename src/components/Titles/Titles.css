@@ -1,0 +1,25 @@
+/* Title */
+.section-title {
+    text-align: center;
+    margin: 3rem 0rem;
+    padding: 12px 0;
+  }
+  
+  .section-title .title {
+    letter-spacing: 2px;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #fafcff;
+    margin: auto 0;
+  }
+  
+  .section-title div{
+    width: 5rem;
+    height: 3px;
+    margin: 0 auto;
+    background: #8aabca;
+  }
+  /* end of Title */

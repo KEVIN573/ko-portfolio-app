@@ -1,0 +1,131 @@
+#contact-form {
+  padding: 0 1.2rem;
+}
+
+#contact-form .field-bag {
+	margin-bottom: 20px;
+}
+
+/* form-field */
+.field-bag .form-field {
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid #8aabca;
+  font-size: 18px;
+}
+
+.field-bag .form-field:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+#contact_form textarea {
+  padding: 15px;
+}
+
+#contact_form p {
+  margin-bottom: 15px;
+}
+
+input[type="text"],input[type="email"],textarea {
+  padding: 10px 15px;
+  color:#273755;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  outline: none;
+}
+
+::placeholder { 
+  color:#273755;
+   
+}
+
+:-ms-input-placeholder { 
+  color:#273755;
+}
+
+::-ms-input-placeholder { 
+  color:#273755;
+}
+
+input,textarea {
+  margin: 0;
+  border: none;
+  font-size: 100%;
+  font-weight: 400;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  height: 45px;
+}
+
+textarea {
+  min-height: 150px;
+  
+} 
+
+#contact-form button{
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  background-color: #8aabca;
+  border: none;
+  color: #273755;
+  overflow: hidden;
+}
+
+#contact-form button:before{
+  position: absolute;
+  content: ""; 
+  top: 0px;
+  height: 100%;
+  left: -25%;
+  width: 0%;
+  background-color: #273755;
+  transform: skew(50deg);
+  transition-duration: 1s;
+  z-index: 1;
+}
+
+#contact-form button:hover{
+  color: #fafcff;
+  cursor: pointer;
+}
+
+#contact-form button:hover:before{
+  width: 170%;
+}
+
+#contact-form button span{
+position: relative;
+	z-index: 9;
+}
+
+.errorMsg{
+  color:#FF8A8A;
+  margin-top: 5px;
+}
+
+#success-message{
+  color: #8AFF8A;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .contact-section{
+    padding: 5rem 3rem;
+  }
+
+}
+@media screen and (min-width: 992px) {
+
+  .contact-section{
+    padding: 5rem 3rem;
+  }
+  
+
+}
