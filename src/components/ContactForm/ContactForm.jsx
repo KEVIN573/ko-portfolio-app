@@ -6,13 +6,11 @@ import * as Yup from "yup";
 import spinner from '../Spinner/Spinner'
 import '../ContactForm/ContactForm.css'
 
-
-
 const formSchema = Yup.object().shape({
   name: Yup.string().max(15, 'Must be 15 characters or less').required('Name is Required'),
-  email: Yup.string().email("Invalid email").required("Email is Required"),
+  email: Yup.string().email('Invalid email').required('Email is Required'),
   subject:Yup.string().max(20, 'Must be 30 characters or less').required('Subject is Required'),
-  message: Yup.string().max(100, 'Must be 100 characters or less').required("Message is Required")
+  message: Yup.string().max(100, 'Must be 100 characters or less').required('Message is Required')
 });
 
 const SignupForm = () => {
@@ -25,10 +23,10 @@ const SignupForm = () => {
   const handleOnSubmit = (values, actions) => {
     axios({
       method: "POST",
-      url: "https://warm-sea-20579.herokuapp.com/send",
+      url: "https://ko-portfolio-server.herokuapp.com/send",
       data: values
     })
-    // https://warm-sea-20579.herokuapp.com
+ 
       .then(response => {
         actions.setSubmitting(false);
         actions.resetForm();
@@ -85,8 +83,6 @@ const SignupForm = () => {
     </React.Fragment>
   );
 };
-
-
 
 export default SignupForm;
 
