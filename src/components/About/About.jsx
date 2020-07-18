@@ -20,13 +20,15 @@ const About = () => {
                 <div className="about-text">
                     <div className='about-text-center'>
                         <p>
-                            Hello, I'm <a href="index.html"><strong>Kevin Ochieng</strong></a>, an experienced  web developer and designer. I channel 
-                            most of my energy and passion into building amazing and functional web experiences, from  
-                            front-end(HTML5, CSS3, ReactJs and Javascript) to back-end(Node Js, Express Js and PostgreSQL).
-                        </p>
-                        <p>
-                            I'm always tuned into helping small businesses and institutions improve their online presence.
-                            I consider myself a 'forever student', eager to always both learn and stay tuned with the latest technologies and strategies.
+                           Kevin Ochieng is an Experienced Web Developer, tuned in all stages of 
+                           advanced web development. Knowledgeable in user interface, testing, 
+                           and debugging processes. Bringing forth expertise in design, 
+                           installation, testing and maintenance of web systems. Equipped with 
+                           a diverse and promising skill-set. Proficient in an assortment of 
+                           technologies, from front-end(HTML5, CSS3, React J and Javascript) 
+                           to back-end(Node Js, Express Js and PostgreSQL). Able to effectively 
+                           self-manage during independent projects, as well as collaborate in a 
+                           team setting.
                         </p>
                     </div>   
                 </div>	
