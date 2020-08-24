@@ -1,80 +1,76 @@
 /* services */
 .services-container {
-    background: #fafcff;
-    text-align: center;
-    padding:  3rem 0rem;
-  }
-  
-  .services-container .title{
+  background: #fafcff;
+  text-align: center;
+  padding: 3rem 0rem;
+}
+
+.services-container .title {
   color: #273755;
-  }
-  
+}
+
+.services-center {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
+  grid-row-gap: 2.5rem;
+  grid-column-gap: 50px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  margin: 1.25rem;
+  box-shadow: 1px 1px 10px 1px #273755;
+  transition: box-shadow 0.5s;
+}
+
+.service:hover {
+  box-shadow: 1px 1px 30px 1px #273755;
+}
+
+.service:nth-child(odd) {
+  background: #8aabca;
+}
+.service span {
+  text-align: center;
+  color: #273755;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.services-container h6 {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #273755;
+  letter-spacing: 1.4;
+}
+.services-container p {
+  width: 100%;
+  margin: 0 auto;
+  color: #273755;
+}
+@media screen and (min-width: 992px) {
   .services-center {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
-    grid-row-gap: 2.5rem;
-    grid-column-gap: 50px;
-    
+    /* width: 95vw; */
+    /* max-width: 1170px; */
   }
-  
-  .service{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem;
-    margin: 1.25rem;
-    box-shadow: 1px 1px 10px 1px  #273755;
-    transition: box-shadow 0.5s;
+  .services-container {
+    margin: 0;
+    padding: 5rem 3rem;
   }
-  
-  .service:hover {
-   box-shadow: 1px 1px 30px 1px  #273755;
-  }
-  
-  .service:nth-child(odd){
-    background: #8aabca;
-  }
-  .service span {
-    text-align: center;
-    color: #273755;
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-  
-  }
-  .services-container h6 {
-    font-size: 16px;
-    margin-bottom: 30px;
-    color: #273755;
-    letter-spacing: 1.4;
-  }
-  .services-container p {
+}
+
+@media screen and (min-width: 1200px) {
+  .services p {
     width: 100%;
-    margin: 0 auto;
-    color: #273755;
-    
   }
-  @media screen and (min-width: 992px) {
-    .services-center {
-      /* width: 95vw; */
-      /* max-width: 1170px; */
-     
-    }
-    .services-container {
-      margin: 0;
-      padding: 5rem 3rem;
-    }
+
+  .services-container {
+    margin: 0;
+    padding: 5rem 3rem;
   }
-  
-  @media screen and (min-width: 1200px) {
-    .services p {
-      width: 100%;
-    }
-  
-    .services-container {
-      margin: 0;
-      padding: 5rem 3rem;
-    }
-  }
-  /*end of services */
+}
+/*end of services */

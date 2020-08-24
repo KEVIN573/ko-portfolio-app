@@ -33,7 +33,9 @@ const Address = () => {
         <div className='info'>
           <h4>Email : </h4>
           <p>
-            <a href = 'https://mail.google.com/' >kevinohkelvin932@gmail.com </a>
+            <a href='mailto:kevinochieng932@gmail.com'>
+              kevinohkelvin932@gmail.com
+            </a>
           </p>
         </div>
       </div>

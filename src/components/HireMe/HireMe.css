@@ -1,0 +1,106 @@
+.hireme-section {
+  margin-top: 1.25rem;
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+.hireme-section .content-part {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hireme-section h1 {
+  color: #273755;
+  font-weight: 700;
+  margin-bottom: 14px;
+  font-size: 36px;
+}
+
+.hireme-section p {
+  color: #273755;
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+.button-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button-part .hire-btn {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-width: 1px;
+  border-style: solid;
+  height: 50px;
+  margin: 0 10px;
+  padding: 15px 20px;
+  position: relative;
+  text-indent: -9999px;
+  transition: all 0.5s ease;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.button-part .upwork {
+  background-image: url(../../images/Freelancer/upwork2.png);
+  background-position: center -20px;
+  border-color: #6fda44;
+}
+
+.button-part .freelancer {
+  background-image: url(../../images/Freelancer/freelancer2.png);
+  border-color: #0088c3;
+}
+
+.hire-btn::after {
+  border-top: 14px solid #0088c3;
+  border-left: 14px solid transparent;
+  content: '';
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+
+.upwork.hire-btn::after {
+  border-top: 14px solid #6fda44;
+}
+
+.button-part a span {
+  height: 200px;
+  width: 200px;
+  top: -75px;
+  left: -20px;
+}
+
+.button-part a > img {
+  max-height: 100px;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 576px) {
+  .button-part {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hireme-section h1 {
+    font-size: 46px;
+  }
+
+  .hireme-section p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+}
