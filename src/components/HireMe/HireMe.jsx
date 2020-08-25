@@ -1,24 +1,35 @@
 import React from 'react';
-import upwork from '../../images/Freelancer/upwork2.png';
-import freelancer from '../../images/Freelancer/freelancer2.png';
 import '../HireMe/HireMe.css';
+import { Link } from 'react-scroll';
 
 const HireMe = () => (
   <section className='hireme-section'>
     <div className='content-part'>
       <h1>Let's work together!</h1>
       <p>
-        I'm available for freelance projects. Hire me and get your project done.
+        Got a great idea that is running through your mind, or having some
+        challenges that you need help solving? Trust me, I'm a good listener.
       </p>
+    </div>
+    <div className='hire-quote-btn-container'>
+      <Link className='hire-quote-btn' to='contact' smooth={true}>
+        <span>REQUEST A Quote</span>
+      </Link>
+    </div>
+    <div class='divider'>
+      <span>Or</span>
+    </div>
+    <div className='hireme-text'>
+      <p>HIRE ME</p>
     </div>
     <div className='button-part'>
       <a
         href='https://www.upwork.com/freelancers/~01c404581bb31bf21d'
         target='blank'
-        class='hire-btn upwork'
+        className='hire-btn upwork'
       >
         <span
-          class='ink'
+          className='ink'
           style={{
             height: '200px',
             width: '200px',
@@ -30,10 +41,10 @@ const HireMe = () => (
       <a
         href='https://www.freelancer.com/u/KevinOchien'
         target='blank'
-        class='hire-btn freelancer'
+        className='hire-btn freelancer'
       >
         <span
-          class='ink'
+          className='ink'
           style={{
             height: '200px',
             width: '200px',

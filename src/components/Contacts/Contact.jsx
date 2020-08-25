@@ -6,7 +6,7 @@ import '../Contacts/Contacts.css';
 
 const Contacts = () => (
   <section className='contact-section' id='contact'>
-    <Title title='Contacts' />
+    <Title title='Get in touch' />
 
     <div className='contacts-container'>
       <div className='contacts-left'>

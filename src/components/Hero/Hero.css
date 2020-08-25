@@ -1,217 +1,210 @@
 /* Intro Section */
 .intro-section {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    background: linear-gradient(0deg, rgba(39, 55, 85, 0.9), rgba(39, 55, 85, 0.9)),
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+      0deg,
+      rgba(39, 55, 85, 0.9),
+      rgba(39, 55, 85, 0.9)
+    ),
     url(../../images/background/bg.jpg) no-repeat center;
-    background-size: cover;
-   
+  background-size: cover;
+}
+
+.intro-section .intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.intro-section .intro-content h1 {
+  color: #fafcff;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+
+.intro-section .intro-content h6 {
+  margin-top: 5px;
+  color: #fafcff;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.intro-section .intro-content p {
+  margin-top: 40px;
+  color: #fafcff;
+}
+
+.intro-content .tagline {
+  margin-top: 80px;
+}
+
+.intro-section .intro-content .tagline .change-container {
+  position: relative;
+  display: inline-block;
+  width: 560px;
+  margin-bottom: 55px;
+  margin-top: 30px;
+}
+
+.intro-section .intro-content .changing {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  opacity: 0;
+  color: #fafcff;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.changing:nth-child(1) {
+  animation: revealNextWord 6s cubic-bezier(0.57, 1.52, 0.9, 1.08) 1.5s infinite;
+}
+
+.changing:nth-child(2) {
+  animation: revealNextWord 6s cubic-bezier(0.57, 1.52, 0.9, 1.08) 3s infinite;
+}
+
+.changing:nth-child(3) {
+  animation: revealNextWord 6s cubic-bezier(0.57, 1.52, 0.9, 1.08) 4.5s infinite;
+}
+
+@keyframes revealNextWord {
+  0% {
+    opacity: 0.3;
+    height: 0;
   }
-  
-  .intro-section .intro-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
+  10% {
+    opacity: 1;
+    height: 1.2em;
   }
-  
+  20% {
+    opacity: 1;
+    height: 1.2em;
+  }
+  28% {
+    opacity: 0;
+    height: 2em;
+  }
+}
+
+.intro-section .intro-content .header-btn .btn {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #273755;
+  background-color: #fafcff;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.intro-section .intro-content .header-btn .btn:before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  height: 100%;
+  left: -25%;
+  width: 0%;
+  background-color: #8aabca;
+  transform: skew(50deg);
+  transition-duration: 1s;
+  z-index: 1;
+}
+
+.intro-section .intro-content .header-btn .btn:hover {
+  color: #fafcff;
+}
+
+.intro-section .intro-content .header-btn .btn:hover:before {
+  width: 172%;
+}
+
+.intro-section .intro-content .header-btn .btn span {
+  position: relative;
+  z-index: 9;
+}
+
+@media screen and (min-width: 375px) {
   .intro-section .intro-content h1 {
-    color: #fafcff;
-    font-size: 1.8rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-top: 80px;
-  
-  } 
-  
-  
-  .intro-section .intro-content h6{
-    margin-top: 5px;
-    color: #fafcff;
-    font-size: 1.5rem;
-    font-weight: 200;
+    font-size: 2rem;
   }
-  
-  .intro-section .intro-content p {
-    margin-top: 40px;
-    color: #fafcff;
+  .intro-section .intro-content h6 {
+    font-size: 1.6rem;
   }
-  
-  .intro-content .tagline {
-    margin-top:80px;
-  }
-  
-  .intro-section .intro-content .tagline .change-container{
-    position: relative;
-    display: inline-block;
-    width: 560px;
-    margin-bottom: 55px;
-    margin-top: 30px;
-  }
-  
+
   .intro-section .intro-content .changing {
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-    left:0;
-    bottom:0;
-    height:0;
-    opacity:0;
-    color: #fafcff;
-    text-transform: uppercase;
-    word-spacing: 5px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-style: italic;
+    font-size: 1.3rem;
   }
-  
-  .changing:nth-child(1) {
-    animation: revealNextWord 6s cubic-bezier(0.57, 1.52, 0.9, 1.08) 1.5s infinite;
-  }
-  
-  .changing:nth-child(2) {
-    animation: revealNextWord 6s cubic-bezier(0.57, 1.52, 0.9, 1.08) 3s infinite;
-  }
-  
-  .changing:nth-child(3) {
-    animation: revealNextWord 6s cubic-bezier(0.57, 1.52, 0.9, 1.08) 4.5s infinite;
-  }
-  
-  @keyframes revealNextWord {
-    0% { 
-      opacity: 0.3; 
-      height: 0.0; 
-    }
-    10% { 
-      opacity: 1; 
-      height:1.2em; 
-    }
-    20% { 
-      opacity: 1; 
-      height:1.2em; 
-    }
-    28% { 
-      opacity: 0; 
-      height: 2em; 
-    }
-    
-  }
-  
-  .intro-section .intro-content .header-btn .btn{
-    text-decoration: none;
-    font-size: 0.8rem;
-    color: #273755;
-    background-color:  #fafcff;
-    padding: 15px;
-    border-radius: 5px;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    text-transform: uppercase;
-  }
-  
-  .intro-section .intro-content .header-btn .btn:before{
-    position: absolute;
-    content: ""; 
-    top: 0px;
-    height: 100%;
-    left: -25%;
-    width: 0%;
-    background-color: #8aabca;
-    transform: skew(50deg);
-    transition-duration: 1s;
-    z-index: 1;
-  }
-  
-  .intro-section .intro-content .header-btn .btn:hover{
-    color: #fafcff;
-  }
-  
-  .intro-section .intro-content .header-btn .btn:hover:before{
-    width: 172%;
-  
-  }
-  
-  .intro-section .intro-content .header-btn .btn span{
-    position: relative;
-    z-index: 9;
-  }
-  
-  @media screen and (min-width: 375px) {
-    .intro-section .intro-content h1 {
-      font-size: 2rem;
-    }
-    .intro-section .intro-content h6 {
-      font-size: 1.6rem;
-    }
+}
 
-    .intro-section .intro-content .changing {
-      font-size: 1.3rem;
-    }
-
+@media screen and (min-width: 576px) {
+  .intro-section .intro-content h1 {
+    font-size: 3.5rem;
   }
 
-  @media screen and (min-width: 576px) {
-    .intro-section .intro-content h1 {
-      font-size: 3.5rem;
-    }
-  
-    .intro-section .intro-content h6 {
-      font-size: 2.5rem;
-    }
-  
-    .intro-section .intro-content .changing {
-      font-size: 1.5rem;
-    }
-  
-    .intro-section .intro-content .header-btn a{
-      font-size: 1.25rem;
-    }
-  
-  }
-  @media screen and (min-width: 992px) {
-    .intro-section .intro-content h1 {
-      font-size: 4.5rem;
-    }
-  
-    .intro-section .intro-content h6 {
-      font-size: 3rem;
-    }
-  
-    .intro-section .intro-content .changing {
-      font-size: 2rem;
-    }
-  
-    .intro-section .intro-content .header-btn a{
-      font-size: 1.25rem;
-    }
-  
+  .intro-section .intro-content h6 {
+    font-size: 2.5rem;
   }
 
-  @media screen and (min-width: 2560px) {
-    .intro-section .intro-content h1 {
-      font-size: 12rem;
-    }
-
-    .intro-section .intro-content h6 {
-      font-size: 8rem;
-    }
-
-    .intro-section .intro-content .changing {
-      font-size: 3rem;
-    }
-  
-    .intro-section .intro-content .header-btn a{
-      font-size: 1.25rem;
-    }
-  
-   
+  .intro-section .intro-content .changing {
+    font-size: 1.5rem;
   }
-  /* END of Intro Section */
-  
+
+  .intro-section .intro-content .header-btn a {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .intro-section .intro-content h1 {
+    font-size: 4.5rem;
+  }
+
+  .intro-section .intro-content h6 {
+    font-size: 3rem;
+  }
+
+  .intro-section .intro-content .changing {
+    font-size: 2rem;
+  }
+
+  .intro-section .intro-content .header-btn a {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .intro-section .intro-content h1 {
+    font-size: 12rem;
+  }
+
+  .intro-section .intro-content h6 {
+    font-size: 8rem;
+  }
+
+  .intro-section .intro-content .changing {
+    font-size: 3rem;
+  }
+
+  .intro-section .intro-content .header-btn a {
+    font-size: 1.25rem;
+  }
+}
+/* END of Intro Section */

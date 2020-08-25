@@ -9,18 +9,113 @@
   text-align: center;
   margin-bottom: 20px;
 }
+.hire-quote-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.hire-quote-btn-container .hire-quote-btn {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #273755;
+  background-color: #8aabca;
+  padding: 15px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+}
 
+.hire-quote-btn-container .hire-quote-btn:before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  height: 100%;
+  left: -25%;
+  width: 0%;
+  background-color: #273755;
+  transform: skew(50deg);
+  transition-duration: 1s;
+  z-index: 1;
+}
+
+.hire-quote-btn-container .hire-quote-btn:hover {
+  color: #fafcff;
+}
+
+.hire-quote-btn-container .hire-quote-btn:hover:before {
+  width: 172%;
+}
+
+.hire-quote-btn-container .hire-quote-btn span {
+  position: relative;
+  z-index: 9;
+}
 .hireme-section h1 {
   color: #273755;
   font-weight: 700;
   margin-bottom: 14px;
-  font-size: 36px;
+  font-size: 2rem;
 }
 
 .hireme-section p {
   color: #273755;
   font-size: 15px;
   margin-bottom: 14px;
+}
+.hireme-quote-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.quote-btn-container .quote-btn {
+  font-size: 1rem;
+  color: #273755;
+  background-color: #8aabca;
+  border-radius: 0;
+}
+.quote-btn-container .quote-btn:before {
+  background-color: #273755;
+}
+
+.divider span::before {
+  left: -80px;
+}
+.divider span::after {
+  right: -80px;
+}
+.divider span::before,
+.divider span::after {
+  background-color: #8aabca;
+  content: '';
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 70px;
+}
+
+.divider {
+  text-align: center;
+  color: #8aabca;
+  margin: 30px 0 20px;
+  text-transform: uppercase;
+}
+
+.divider span {
+  position: relative;
+}
+.hireme-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hireme-text p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 .button-part {
   display: flex;
@@ -29,34 +124,31 @@
   justify-content: center;
 }
 .button-part .hire-btn {
-  margin-right: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 80%;
+  margin: 15px;
   border-width: 1px;
   border-style: solid;
   height: 50px;
-  margin: 0 10px;
-  padding: 15px 20px;
   position: relative;
-  text-indent: -9999px;
   transition: all 0.5s ease;
-  width: 200px;
-  margin-bottom: 15px;
+  width: 160px;
 }
 
 .button-part .upwork {
   background-image: url(../../images/Freelancer/upwork2.png);
-  background-position: center -20px;
+  background-position: center;
   border-color: #6fda44;
 }
 
 .button-part .freelancer {
   background-image: url(../../images/Freelancer/freelancer2.png);
   border-color: #0088c3;
+  background-position: center;
 }
 
 .hire-btn::after {
@@ -72,17 +164,17 @@
   border-top: 14px solid #6fda44;
 }
 
-.button-part a span {
+/* .button-part a span {
   height: 200px;
   width: 200px;
-  top: -75px;
-  left: -20px;
-}
+  top: 75px;
+  left: 20px;
+} */
 
-.button-part a > img {
+/* .button-part a > img {
   max-height: 100px;
   object-fit: contain;
-}
+} */
 
 @media screen and (min-width: 375px) {
 }
@@ -90,6 +182,14 @@
 @media screen and (min-width: 576px) {
   .button-part {
     flex-direction: row;
+  }
+
+  .button-part .hire-btn {
+    width: 200px;
+  }
+
+  .hireme-section p {
+    padding: 0 8rem;
   }
 }
 @media screen and (min-width: 992px) {
@@ -100,7 +200,13 @@
   .hireme-section p {
     font-size: 20px;
   }
+  .button-part .hire-btn {
+    width: 220px;
+  }
 }
 
 @media screen and (min-width: 2560px) {
+  .button-part .hire-btn {
+    width: 250px;
+  }
 }
