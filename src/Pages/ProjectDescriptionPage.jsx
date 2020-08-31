@@ -2,30 +2,54 @@ import React from 'react';
 import './ProjectDescriptionPage.css';
 
 const ProjectDescriptionPage = () => (
-  <div class='lightbox-wrapper' id='item-1'>
-    <div class='f-basis-100'>
-      <div class='lightbox-close' data-modal-close>
-        <span class='close-btn'>
-          <span class='btn-line'></span>
+  <div className='lightbox-wrapper' id='item-1'>
+    <div className='f-basis-100'>
+      <div className='lightbox-close'>
+        <span className='close-btn'>
+          <span className='btn-line'></span>
         </span>
       </div>
     </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-12 col-lg-5'>
-          <div class='lightbox-gallery owl-carousel owl-theme'>
-            <img class='img-fluid item-img' alt='Item' src='img/item-1.jpg' />
-            <img class='img-fluid item-img' alt='Item' src='img/item-2.jpg' />
-            <img class='img-fluid item-img' alt='Item' src='img/item-3.jpg' />
-            <img class='img-fluid item-img' alt='Item' src='img/item-4.jpg' />
-            <img class='img-fluid item-img' alt='Item' src='img/item-5.jpg' />
-            <img class='img-fluid item-img' alt='Item' src='img/item-6.jpg' />
+    <div className='container'>
+      <div className='row'>
+        <div className='col-12 col-lg-5'>
+          <div className='lightbox-gallery owl-carousel owl-theme'>
+            <img
+              className='img-fluid item-img'
+              alt='Item'
+              src='img/item-1.jpg'
+            />
+            <img
+              className='img-fluid item-img'
+              alt='Item'
+              src='img/item-2.jpg'
+            />
+            <img
+              className='img-fluid item-img'
+              alt='Item'
+              src='img/item-3.jpg'
+            />
+            <img
+              className='img-fluid item-img'
+              alt='Item'
+              src='img/item-4.jpg'
+            />
+            <img
+              className='img-fluid item-img'
+              alt='Item'
+              src='img/item-5.jpg'
+            />
+            <img
+              className='img-fluid item-img'
+              alt='Item'
+              src='img/item-6.jpg'
+            />
           </div>
         </div>
-        <div class='col-12 col-lg-7'>
-          <div class='lightbox-content'>
-            <h3 class='content-title'>Label Tag Mockup</h3>
-            <div class='content-description'>
+        <div className='col-12 col-lg-7'>
+          <div className='lightbox-content'>
+            <h3 className='content-title'>Label Tag Mockup</h3>
+            <div className='content-description'>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Assumenda aut sapiente quo explicabo, quasi incidunt aperiam
@@ -42,28 +66,28 @@ const ProjectDescriptionPage = () => (
                 repudiandae, repellendus voluptatum soluta?
               </p>
             </div>
-            <ul class='list-inline content-info'>
-              <li class='list-inline-item single-info'>
+            <ul className='list-inline content-info'>
+              <li className='list-inline-item single-info'>
                 <span>Client:</span>
                 <p>Envato</p>
               </li>
-              <li class='list-inline-item single-info'>
+              <li className='list-inline-item single-info'>
                 <span>Categories:</span>
                 <p>
                   <a href='#0'>Branding</a>, <a href='#0'>Web Design</a>
                 </p>
               </li>
-              <li class='list-inline-item single-info'>
+              <li className='list-inline-item single-info'>
                 <span>Date:</span>
                 <p>12 May, 2019</p>
               </li>
-              <li class='list-inline-item single-info'>
+              <li className='list-inline-item single-info'>
                 <span>Technologies:</span>
                 <p>HTML5, SCSS, JS</p>
               </li>
             </ul>
             <a
-              class='btn content-btn button-main button-scheme'
+              className='btn content-btn button-main button-scheme'
               href='#0'
               role='button'
             >

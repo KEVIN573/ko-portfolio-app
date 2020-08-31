@@ -10,6 +10,7 @@
     ),
     url(../../images/background/bg.jpg) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .intro-section .intro-content {

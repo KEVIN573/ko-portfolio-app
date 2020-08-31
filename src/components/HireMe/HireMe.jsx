@@ -13,7 +13,7 @@ const HireMe = () => (
     </div>
     <div className='hire-quote-btn-container'>
       <Link className='hire-quote-btn' to='contact' smooth={true}>
-        <span>REQUEST A Quote</span>
+        <span>REQUEST A QUOTE</span>
       </Link>
     </div>
     <div class='divider'>

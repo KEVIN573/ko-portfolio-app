@@ -1,18 +1,23 @@
 /*Portfolio Section*/
 .portfolio-section {
-  margin-right: 1.25rem;
-  margin-left: 1.25rem;
-  margin-bottom: 0;
+  background: radial-gradient(rgba(39, 55, 85, 0.8), rgba(39, 55, 85, 0.8)),
+    url(../../images/background/hire.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  margin-bottom: 100px;
 }
 .portfolio-section .title {
-  color: #273755;
+  color: #fafcff;
 }
 .portfolio-container {
+  margin: 0 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
   grid-row-gap: 2.5rem;
   grid-column-gap: 50px;
-  padding-bottom: 1.2rem;
 }
 
 .work-item {
@@ -27,7 +32,8 @@
 }
 
 .work-item img {
-  min-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .work-item .work-inner {
@@ -154,12 +160,12 @@
 
 @media screen and (min-width: 576px) {
   .portfolio-section {
-    padding: 5rem 3rem;
+    padding: 2rem 3rem;
   }
 }
 @media screen and (min-width: 992px) {
   .portfolio-section {
-    padding: 5rem 3rem;
+    padding: 1rem 3rem;
   }
 }
 /* End of Portfolio Section*/

@@ -164,18 +164,6 @@
   border-top: 14px solid #6fda44;
 }
 
-/* .button-part a span {
-  height: 200px;
-  width: 200px;
-  top: 75px;
-  left: 20px;
-} */
-
-/* .button-part a > img {
-  max-height: 100px;
-  object-fit: contain;
-} */
-
 @media screen and (min-width: 375px) {
 }
 
