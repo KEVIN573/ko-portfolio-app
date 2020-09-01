@@ -18,15 +18,31 @@ const About = () => {
         <div className='about-text'>
           <div className='about-text-center'>
             <p>
-              Kevin Ochieng is an Experienced Web Developer, tuned in all stages
-              of advanced web development. Knowledgeable in user interface,
-              testing, and debugging processes. Bringing forth expertise in
-              design, installation, testing and maintenance of web systems.
-              Equipped with a diverse and promising skill-set. Proficient in an
-              assortment of technologies, from front-end(HTML5, CSS3, React J
-              and Javascript) to back-end(Node Js, Express Js and PostgreSQL).
-              Able to effectively self-manage during independent projects, as
-              well as collaborate in a team setting.
+              <strong>Kevin Ochieng</strong> is an experienced Web Developer,
+              tuned in all stages of advanced web development. Knowledgeable in
+              user interface, testing, and debugging processes. Bringing forth
+              expertise in design, installation, testing and maintenance of web
+              systems. Equipped with a diverse and promising skill-set.
+              Proficient in an assortment of technologies, from front-end(HTML5,
+              CSS3, React js and Javascript) to back-end(Node js, Express js and
+              PostgreSQL). Able to effectively self-manage during independent
+              projects, as well as collaborate in a team setting.
+            </p>
+
+            <p>
+              I'm extremely passionate about helping small businesses and
+              institutions improve their online presence. for instance, Nuru
+              palace hotel had this (
+              <a href='https://nurupalacehotel.com'>
+                https://nurupalacehotel.com
+              </a>
+              ) outdated, unresponsive and visually not appealing website, that
+              I was able to redesign to this (
+              <a href='https://nurupalacehotel.netlify.com/'>
+                https://nurupalacehotel.netlify.com/
+              </a>
+              ) and make it more professional and user friendly to their
+              customers.
             </p>
           </div>
         </div>

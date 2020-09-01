@@ -13,9 +13,10 @@ html {
   min-width: 100%;
   overflow-x: hidden;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   line-height: 1.6;
   background: #fafcff;
+  letter-spacing: 2px;
 }
 
 /* .main-container {
