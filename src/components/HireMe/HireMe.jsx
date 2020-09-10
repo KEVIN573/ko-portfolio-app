@@ -16,7 +16,7 @@ const HireMe = () => (
         <span>REQUEST A QUOTE</span>
       </Link>
     </div>
-    <div class='divider'>
+    <div className='divider'>
       <span>Or</span>
     </div>
     <div className='hireme-text'>

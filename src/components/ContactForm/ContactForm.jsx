@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-
 import axios from 'axios';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import spinner from '../Spinner/Spinner';
+// import spinner from '../Spinner/Spinner';
 import '../ContactForm/ContactForm.css';
 
 const formSchema = Yup.object().shape({
@@ -37,7 +36,7 @@ const SignupForm = () => {
         actions.resetForm();
         handleServerResponse(
           true,
-          <p id='success-message'>Message sent successfully</p>
+          <span id='success-message'>Message sent successfully</span>
         );
       })
       .catch((error) => {
