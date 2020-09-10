@@ -31,18 +31,12 @@ const About = () => {
 
             <p>
               I'm extremely passionate about helping small businesses and
-              institutions improve their online presence. for instance, Nuru
-              palace hotel had this <span>👉</span>(
-              <a href='https://nurupalacehotel.com'>
-                https://nurupalacehotel.com
-              </a>
-              ) outdated, unresponsive and visually not appealing website, that
-              I was able to redesign to this <span>👉</span>(
-              <a href='https://nurupalacehotel.netlify.com/'>
-                https://nurupalacehotel.netlify.com/
-              </a>
-              ) and make it more professional and user friendly to their
-              customers.
+              institutions improve their online presence. For instance, I
+              converted
+              <a href='https://nurupalacehotel.com'>this</a>
+              outdated, unresponsive and visually not appealing website, to
+              <a href='https://nurupalacehotel.netlify.com/'>this</a>
+              modern, professional and user friendly to their customers.
             </p>
           </div>
         </div>

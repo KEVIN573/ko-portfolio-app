@@ -63,14 +63,17 @@
 
 .about-section .about-text p {
   color: #fafcff;
-  font-size: 1.125rem;
+  font-size: 1rem;
   letter-spacing: 2px;
+  word-spacing: 5px;
   text-align: justify;
+  white-space: wrap;
 }
 
 .about-section .about-text-center > p > a {
-  color: #8aabca;
-  text-decoration: none;
+  color: #ef805c;
+  margin: 0 10px;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 576px) {
