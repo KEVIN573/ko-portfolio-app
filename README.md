@@ -1,3 +1,3 @@
 ## PORTFOLIO WEBSITE
 
-This website app is created and owned by Kevin Ochieng.
+This website app is created and owned by K&O Technologies.

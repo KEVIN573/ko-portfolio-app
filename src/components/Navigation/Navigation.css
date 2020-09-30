@@ -1,99 +1,30 @@
-/* ====Navigation section====*/
-
-.logo img {
-  margin-left: -40px;
-  max-height: 100px;
-  object-fit: contain;
-  margin-top: 10px;
-}
-
-.logo img:hover {
-  cursor: pointer;
-}
-
-.burger-wrapper div {
-  position: relative;
-  cursor: pointer;
-  display: block;
-  margin-right: -20px;
-}
-
-.burger-wrapper span {
-  background: #fafcff;
-  display: block;
-  position: relative;
-  width: 30px;
-  height: 1px;
-  margin: 0.6rem;
-  transition: all ease-in-out 0.3s;
-}
-
-.open span:nth-child(2) {
-  opacity: 0;
-}
-
-.open span:nth-child(3) {
-  transform: rotate(45deg);
-  top: -10px;
-}
-
-.open span:nth-child(1) {
-  transform: rotate(-45deg);
-  top: 10px;
-}
-
-.nav-links {
-  height: 0;
-  overflow: hidden;
-  list-style-type: none;
-}
-
-.nav-links-container {
-  position: absolute;
+.navbar__container {
+  position: fixed;
+  min-height: 12vh;
+  min-width: 100%;
   top: 0;
-  right: 0;
   left: 0;
-  min-width: 50vw;
-  min-height: 50vh;
   background: #273755;
+  z-index: 10;
+}
+
+.navbar__container .navbar__content {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+  justify-content: space-between;
+  height: 12vh;
+  border-bottom: 2px solid #8aabca;
+  width: 100%;
 }
 
-.nav-links-container .link {
-  transition: all 300ms linear 0s;
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 1rem 0;
-  color: #fafcff;
-  text-align: center;
-  font-weight: 400;
-  text-transform: uppercase;
-  transition: color 1s ease, padding 1s ease, background-color 1s ease;
-  cursor: pointer;
-}
-
-.nav-links-container .link:hover {
-  color: #8aabca;
-  padding-left: 15px;
-  background: rgba(138, 171, 202, 0.2);
-}
-
-.nav-links-container .link:first-child {
-  margin-top: 30px;
-}
-
-.nav-links-container .link:last-child {
-  margin-bottom: 30px;
+.burger {
+  margin: auto 0;
 }
 
 @media screen and (min-width: 768px) {
   .nav-btn {
     display: none;
-  }
-
-  .logo img {
-    max-height: 120px;
   }
 }
 
@@ -101,19 +32,10 @@
   .nav-btn {
     display: none;
   }
-
-  .logo img {
-    width: 360px;
-  }
 }
 
 @media screen and (min-width: 2560px) {
   .nav-btn {
     display: none;
   }
-
-  .logo img {
-    width: 700px;
-  }
 }
-/* end of navbar */

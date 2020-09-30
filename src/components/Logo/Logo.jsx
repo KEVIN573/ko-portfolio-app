@@ -1,24 +1,18 @@
-import React from 'react'
+import React from 'react';
 import logo from '../../images/logos/ko-logo.png';
 import { animateScroll as scroll } from 'react-scroll';
+import './Logo.css';
 
 const Brand = () => {
-
   let logoOnClick = (e) => {
-    e.preventDefault();
     scroll.scrollToTop();
-  }
+  };
 
   return (
-    <div>
-      <div className="logo">
-        <img onClick={logoOnClick} src= {logo} alt="Company Logo" /> 
-      </div>
+    <div className='logo'>
+      <img onClick={logoOnClick} src={logo} alt='K&O Technologies' />
     </div>
-  )
-}
+  );
+};
 
-export default Brand
-
-
-
+export default Brand;
