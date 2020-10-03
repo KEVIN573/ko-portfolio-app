@@ -1,14 +1,7 @@
 .hireme-section {
-  margin-top: 1.25rem;
-  margin-right: 1.25rem;
-  margin-left: 1.25rem;
-  margin-bottom: 0;
+  margin: 5rem 0;
 }
 
-.hireme-section .content-part {
-  text-align: center;
-  margin-bottom: 20px;
-}
 .hire-quote-btn-container {
   display: flex;
   align-items: center;
@@ -112,11 +105,11 @@
   justify-content: center;
 }
 
-.hireme-text p {
+/* .hireme-text p {
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
-}
+} */
 .button-part {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,112 @@
+.about__container {
+  background-image: url(../../images/background/bg.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto 100%;
+}
+
+.about__container .about__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  text-align: justify;
+  padding: 100px 60px;
+}
+
+.about__items {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.about__container:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  background: linear-gradient(
+    to right,
+    rgba(250, 252, 255, 1) 50%,
+    rgba(138, 171, 202, 0) 140%
+  );
+}
+
+.about__container .btn {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 30px;
+  color: #fff;
+  letter-spacing: 2px;
+  background-color: #ffc107;
+  border-radius: 0;
+}
+.about__container .about__container .btn:active,
+.about__container .btn:active:focus,
+.about__container.btn:focus,
+.about__container .btn:hover {
+  color: #fff;
+  background-color: #ef805c;
+  text-decoration: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.about__container .about__content h2,
+.about__container .about__content h5 {
+  text-align: left;
+}
+.about__container .about__content h2 {
+  font-size: 48px;
+}
+.about__container .about__content p {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.about__container .about__content p:last-of-type {
+  margin-bottom: 0;
+}
+.about__container .about__content .btn {
+  margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+  .about__container .about__content h2,
+  .about__container .about__content h5 {
+    text-align: center;
+  }
+  .about__container .about__content h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+
+  .about__items {
+    grid-column-end: 3;
+  }
+  .about__container .about__content p {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 40px;
+  }
+  .about__container .about__content .btn {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about__container {
+    background-image: none !important;
+  }
+  .about__container .about__content {
+    padding: 100px 20px;
+  }
+}

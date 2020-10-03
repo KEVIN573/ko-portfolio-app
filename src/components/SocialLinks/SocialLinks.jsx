@@ -4,22 +4,22 @@ import '../SocialLinks/SocialLinks.css';
 
 const SocialLinks = () => (
   <div className='social-links'>
-    <a href='https://www.facebook.com/KO-Technologies-109501813920800/'>
+    <a href='https://www.facebook.com/KandOTechnologies'>
       <i>
         <FaFacebookF />
       </i>
     </a>
-    <a href='https://twitter.com/home'>
+    <a href='https://twitter.com/KevinOc43940401'>
       <i>
         <FaTwitter />
       </i>
     </a>
-    <a href='https://www.linkedin.com/in/kevin-ochieng-b09999139/'>
+    <a href='https://www.linkedin.com/in/kevin-ochiengg/'>
       <i>
         <FaLinkedinIn />
       </i>
     </a>
-    <a href='https://github.com/orgs/K-O-Tech/dashboard'>
+    <a href='https://github.com/KevinOchiengg'>
       <i>
         <FaGithub />
       </i>

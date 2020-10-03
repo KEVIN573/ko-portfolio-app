@@ -8,16 +8,19 @@ import Projects from './components/Projects/Projects';
 import Contacts from './components/Contacts/Contact';
 import Footer from './components/Footer/Footer';
 import HireMe from './components/HireMe/HireMe';
+import Project from './components/Project/Project';
+import AboutMe from './components/AboutMe/AboutMe';
 
 const App = () => {
   return (
     <main className='main-container' id='root-app'>
       <Navigation />
       <Hero />
-      <About />
+      <AboutMe />
       <Skills />
       <Services />
       <Projects />
+      <Project />
       <HireMe />
       <Contacts />
       <Footer />

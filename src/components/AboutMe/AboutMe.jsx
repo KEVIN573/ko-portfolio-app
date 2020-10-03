@@ -1,24 +1,14 @@
 import React from 'react';
-import Title from '../Titles/Title';
-import SocialLinks from '../SocialLinks/SocialLinks';
-import Profile from '../../images/profile-images/profile.jpg';
-import '../About/About.css';
+import '../AboutMe/AboutMe.css';
 
-const About = () => {
-  const aboutText =
-    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate exercitationem, id dolore ipsam dicta ipsum?';
-
+const AboutMe = () => {
   return (
-    <section className='about-section' id='about'>
-      <Title smallTitle='About' bigTitle='Get To Me' titleText={aboutText} />
-      <div className='about-container'>
-        <div className='about-img'>
-          <img src={Profile} alt='My profile' />
-          <SocialLinks />
-        </div>
-
-        <div className='about-text'>
-          <div className='about-text-center'>
+    <section className='section'>
+      <div className='about__container'>
+        <div className='about__content'>
+          <div className='about__items'>
+            <h5>ABOUT Me</h5>
+            <h2>Get To Know Me</h2>
             <p>
               <strong>Kevin Ochieng</strong> is an experienced Web Developer,
               tuned in all stages of advanced web development. Knowledgeable in
@@ -30,7 +20,6 @@ const About = () => {
               PostgreSQL). Able to effectively self-manage during independent
               projects, as well as collaborate in a team setting.
             </p>
-
             <p>
               I'm extremely passionate about helping small businesses and
               institutions improve their online presence. For instance, I
@@ -40,6 +29,9 @@ const About = () => {
               <a href='https://nurupalacehotel.netlify.com/'>this</a>
               modern, professional and user friendly to their customers.
             </p>
+            <a href='aboutus.html' className='btn'>
+              LEARN MORE
+            </a>
           </div>
         </div>
       </div>
@@ -47,4 +39,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutMe;
