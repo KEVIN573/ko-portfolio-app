@@ -30,7 +30,7 @@ const Services = () => {
   ];
 
   const serviceText =
-    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate exercitationem, id dolore ipsam dicta ipsum?';
+    'Successful people are always looking for opportunities to help others. Let’s work together';
   return (
     <section className='services-container' id='services'>
       <Title

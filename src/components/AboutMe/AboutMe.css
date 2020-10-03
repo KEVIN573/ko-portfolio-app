@@ -70,6 +70,14 @@
   line-height: 30px;
   margin-bottom: 40px;
 }
+
+.about__container .about__content p a {
+  margin: 0 4px;
+  color: #8aabca;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
 .about__container .about__content p:last-of-type {
   margin-bottom: 0;
 }

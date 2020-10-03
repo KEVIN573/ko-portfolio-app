@@ -24,14 +24,15 @@ const AboutMe = () => {
               I'm extremely passionate about helping small businesses and
               institutions improve their online presence. For instance, I
               converted
-              <a href='https://nurupalacehotel.com'>this</a>
+              <a href='https://nurupalacehotel.com'>
+                <span></span>this<span></span>
+              </a>
               outdated, unresponsive and visually not appealing website, to
-              <a href='https://nurupalacehotel.netlify.com/'>this</a>
+              <a href='https://nurupalacehotel.netlify.com/'>
+                <span></span>this<span></span>
+              </a>
               modern, professional and user friendly to their customers.
             </p>
-            <a href='aboutus.html' className='btn'>
-              LEARN MORE
-            </a>
           </div>
         </div>
       </div>

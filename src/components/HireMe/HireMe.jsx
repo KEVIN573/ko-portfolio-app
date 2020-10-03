@@ -10,7 +10,7 @@ const HireMe = () => {
     <section className='hireme-section'>
       <Title
         smallTitle='Hire me'
-        bigTitle='Let Us Work Together!'
+        bigTitle='Let’s Work Together!'
         titleText={hireText}
       />
       <div className='hire-quote-btn-container'>

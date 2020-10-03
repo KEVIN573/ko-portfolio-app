@@ -1,9 +1,8 @@
 import React from 'react';
 import { FaLongArrowAltRight } from 'react-icons/fa';
-import { Link, animateScroll as scroll } from 'react-scroll';
 import '../Project/Project.css';
 import Title from '../Titles/Title';
-import ProjectImg1 from '../../images/work/nuru10.png';
+import ProjectImg1 from '../../images/work/nuru8.png';
 import ProjectImg2 from '../../images/work/ko4.png';
 import ProjectImg9 from '../../images/work/ko3.png';
 import ProjectImg3 from '../../images/work/robo.png';
@@ -37,22 +36,18 @@ const Project = () => {
                 backgroundImage: `url(${ProjectImg7})`,
               }}
             ></div>
-            <button to='contact' className='project__hire__btn'>
-              <span>HIRE ME</span>
-            </button>
           </div>
           <div className='project__description'>
-            <h5>Website</h5>
-            <h2>Nuru Palace Hotel</h2>
+            <h5>Nuru Palace Hotel</h5>
             <p>
               Nuru Palace Hotel is holiday letting company, based in Nakuru,
               Kenya.
             </p>
             <p>
               They had
-              <Link to='https://nurupalacehotel.com/'>
+              <a href='https://nurupalacehotel.com/'>
                 <span>this</span>
-              </Link>
+              </a>
               outdated, unresponsive and visually not appealing website, which
               resulted to a bad user experience, particularly on mobile devices.
               The company therefore needed a fresh of their brand and an updated
@@ -110,9 +105,9 @@ const Project = () => {
                 <div className='final__website'>
                   <h6>Website:</h6>
                   <p>
-                    <Link to='https://nurupalacehotel.netlify.com/'>
+                    <a href='https://nurupalacehotel.netlify.com/'>
                       nurupalace.com
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -134,13 +129,9 @@ const Project = () => {
                 backgroundImage: `url(${ProjectImg8})`,
               }}
             ></div>
-            <Link className='project__hire__btn' to='contact' smooth={true}>
-              <span>HIRE ME</span>
-            </Link>
           </div>
           <div className='project__description'>
-            <h5>Website</h5>
-            <h2>Compassionate Love</h2>
+            <h5>Compassionate Love</h5>
             <p>
               Compassionate Love Center is a christian charity organization,
               based in Kenya. The organization had no website to spread their
@@ -203,9 +194,9 @@ const Project = () => {
                 <div className='final__website'>
                   <h6>Website:</h6>
                   <p>
-                    <Link to='https://compassionatelove.netlify.app/'>
+                    <a href='https://compassionatelove.netlify.app/'>
                       <span>Compassionate Love</span>
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -226,13 +217,9 @@ const Project = () => {
                 backgroundImage: `url(${ProjectImg5})`,
               }}
             ></div>
-            <Link to='contact' className='project__hire__btn'>
-              <span>HIRE ME</span>
-            </Link>
           </div>
           <div className='project__description'>
             <h5>website</h5>
-            <h2>Music Portfolio</h2>
             <p>
               Kayate Koll is a music artist, who had a problem of accelerating
               his career, by his music reaching out to more supporters.
@@ -316,13 +303,10 @@ const Project = () => {
                 backgroundImage: `url(${ProjectImg9})`,
               }}
             ></div>
-            <Link className='project__hire__btn' to='contact' smooth={true}>
-              <span>HIRE ME</span>
-            </Link>
           </div>
           <div className='project__description'>
-            <h5>website</h5>
-            <h2>My Portfolio</h2>
+            <h5>My Portfolio</h5>
+
             <p>
               This is my portfolio website where I'm able to showcase and bring
               forth expertise in design, installation, testing and maintenance
@@ -385,8 +369,8 @@ const Project = () => {
                 <div className='final__website'>
                   <h6>Website:</h6>
                   <p>
-                    <a href='https://nurupalacehotel.netlify.com/'>
-                      <span>nurupalace.com</span>
+                    <a href='https://ko-technologies.netlify.com/'>
+                      <span>k&o technologies</span>
                     </a>
                   </p>
                 </div>
@@ -408,14 +392,9 @@ const Project = () => {
                 backgroundImage: `url(${ProjectImg3})`,
               }}
             ></div>
-
-            <Link className='project__hire__btn' to='contact' smooth={true}>
-              <span>HIRE ME</span>
-            </Link>
           </div>
           <div className='project__description'>
-            <h5>website</h5>
-            <h2>Face Recognition App</h2>
+            <h5>Face Recognition App</h5>
             <p>
               This a face recognition app built in react. You can paste your
               image url, and the app will do the magic of detecting a face in

@@ -1,7 +1,6 @@
 /* services */
 .services-container {
   text-align: center;
-  padding: 3rem 0rem;
 }
 
 .services-container .title {
@@ -23,12 +22,12 @@
   justify-content: center;
   padding: 1.5rem;
   margin: 1.25rem;
-  box-shadow: 1px 1px 10px 1px #273755;
+  box-shadow: 0 0 30px 0 rgba(33, 30, 25, 0.1);
   transition: box-shadow 0.5s;
 }
 
 .service:hover {
-  box-shadow: 1px 1px 30px 1px #273755;
+  box-shadow: 0 0 30px 0 rgba(33, 30, 25, 0.2);
 }
 
 .service:nth-child(odd) {
@@ -58,7 +57,6 @@
   }
   .services-container {
     margin: 0;
-    padding: 5rem 3rem;
   }
 }
 
@@ -69,7 +67,7 @@
 
   .services-container {
     margin: 0;
-    padding: 5rem 3rem;
+    padding: 3rem;
   }
 }
 /*end of services */

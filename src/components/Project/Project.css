@@ -5,7 +5,7 @@
 .project__section .projects__container {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 100px 40px;
+  padding: 0px 40px;
 }
 
 .projects__container .project__item {
@@ -174,6 +174,7 @@
 .project__info {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .projects__container .project__item .project__description .project__info p {
@@ -252,8 +253,7 @@ a {
 }
 @media (max-width: 991px) {
   .projects__container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0px 30px;
   }
 
   .projects__container .project__item .project__photo {
@@ -286,8 +286,7 @@ a {
 
 @media (max-width: 767px) {
   .projects__container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 0 30px;
   }
 
   .projects__container .project__item .project__photo .photo-small {
