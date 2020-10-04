@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLongArrowAltRight, FaLink, FaGithub } from 'react-icons/fa';
-import '../Project/Project.css';
+import './Projects.css';
 import Title from '../Titles/Title';
 
 import ProjectImg2 from '../../images/work/ko4.png';
@@ -16,7 +16,7 @@ const Project = () => {
     'I believe in problem solving, and web development is all about solving those problems';
 
   return (
-    <section className='project__section'>
+    <section className='project__section' id='projects'>
       <Title
         smallTitle='projects'
         bigTitle='My Projects'
@@ -62,8 +62,7 @@ const Project = () => {
           <div className='project__description'>
             <h5>Nuru Palace Hotel</h5>
             <p>
-              Nuru Palace Hotel is holiday letting company, based in Nakuru,
-              Kenya.
+              Nuru Palace is a holiday letting company, based in Nakuru, Kenya.
             </p>
             <p>
               They had
@@ -173,11 +172,11 @@ const Project = () => {
             ></div>
           </div>
           <div className='project__description'>
-            <h5>Compassionate Love</h5>
+            <h5>Compassionate Love Center</h5>
             <p>
-              Compassionate Love Center is a christian charity organization,
-              based in Kenya. The organization had no website to spread their
-              word and work to the people.
+              Compassionate Love is a christian charity organization, based in
+              Kenya. The organization had no website to spread their word and
+              work to the people.
             </p>
             <p>
               Being able to bring forth expertise in design, installation,
@@ -493,9 +492,9 @@ const Project = () => {
           <div className='project__description'>
             <h5>Face Recognition App</h5>
             <p>
-              This a face recognition app built in react. You can paste your
-              image url, and the app will do the magic of detecting a face in
-              your image.
+              This a face recognition application built in react. You can paste
+              your image url, and the app will do the magic of detecting a face
+              in your image.
             </p>
             <p>
               Creating this project helped me master react, APIs and most full

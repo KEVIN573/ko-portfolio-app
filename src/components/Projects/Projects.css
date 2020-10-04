@@ -2,13 +2,9 @@
   background-color: #fafcff;
 }
 
-.projects__container .project__item:last-child {
-  margin-bottom: 2000px;
-}
-
 .project__section .projects__container {
-  margin: 0 auto;
-  padding: 0px 40px;
+  margin: 0;
+  padding: 0 2.5rem;
 }
 
 .work-item .work-inner {
@@ -77,6 +73,11 @@
   transition: all 0.4s ease 0s;
 }
 
+.projects__container .project__item img {
+  object-fit: cover;
+  width: 100%;
+}
+
 .projects__container .project__item {
   position: relative;
   margin-bottom: 100px;
@@ -123,29 +124,17 @@
 .projects__container .project__item:nth-child(even) .project__photo:after {
   left: inherit;
   right: 100%;
-  background: -moz-linear-gradient(
+  background: linear-gradient(
     right,
     rgba(33, 30, 25, 0.1) -100%,
     rgba(0, 0, 0, 0) 100%
   );
-  background: -webkit-linear-gradient(
-    right,
-    rgba(33, 30, 25, 0.1) -100%,
-    rgba(0, 0, 0, 0) 100%
-  );
+
   background: linear-gradient(
     to left,
     rgba(33, 30, 25, 0.1) -100%,
     rgba(0, 0, 0, 0) 100%
   );
-}
-
-.projects__container
-  .project__item:nth-child(even)
-  .project__photo
-  .project__hire__btn {
-  left: inherit;
-  right: 110%;
 }
 
 .projects__container .project__item .project__photo .photo-big {
@@ -256,70 +245,29 @@
 .projects__container .project__item:last-child {
   margin-bottom: 150px;
 }
+
 .projects__container .project__item .project__description p {
   line-height: 30px;
   font-size: 15px;
 }
 
-@media (max-width: 991px) {
-  .projects__container {
-    padding: 0px 30px;
-  }
-
-  .projects__container .project__item .project__photo {
-    position: relative;
-    width: 100%;
-    padding-top: 100%;
-  }
-  .projects__container .project__item .project__photo .photo-small {
-    bottom: 0;
-    right: 0;
-    border-width: 30px;
-    box-shadow: none;
-  }
-  .projects__container .project__item .project__description {
-    padding-left: 60px;
-    padding-top: 40px;
-  }
-  .projects__container
-    .project__item:nth-child(even)
-    .project__photo
-    .photo-small {
-    left: 0;
-  }
-  .projects__container .project__item:nth-child(even) .project__description {
-    padding-right: 60px;
-  }
-}
-
 @media (max-width: 767px) {
-  .projects__container {
-    padding: 0 30px;
+  .project__section .projects__container {
+    padding: 0 1.25rem;
   }
 
   .projects__container .project__item .project__photo .photo-small {
     display: none;
   }
-  .widget-about-grid .widget-inner .widget-item {
-    margin-bottom: 40px;
-  }
-
-  .projects__container .project__item .project__photo .project__hire__btn,
-  .projects__container
-    .project__item:nth-child(even)
-    .project__photo
-    .project__hire__btn {
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-  }
 
   .projects__container .project__item {
     margin-bottom: 50px;
   }
+
   .projects__container .project__item .project__photo .photo-big {
     border-width: 20px;
   }
+
   .projects__container .project__item .project__description {
     text-align: center;
     padding: 5px 20px 20px;
@@ -335,5 +283,40 @@
   }
   .projects__container .project__item:nth-child(even) .project__description {
     padding: 5px 20px 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .project__section .projects__container {
+    padding: 0 1.25rem;
+  }
+
+  .projects__container .project__item .project__photo {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+  }
+
+  .projects__container .project__item .project__photo .photo-small {
+    bottom: 0;
+    right: 0;
+    border-width: 30px;
+    box-shadow: none;
+  }
+
+  .projects__container .project__item .project__description {
+    padding-left: 60px;
+    padding-top: 40px;
+  }
+
+  .projects__container
+    .project__item:nth-child(even)
+    .project__photo
+    .photo-small {
+    left: 0;
+  }
+
+  .projects__container .project__item:nth-child(even) .project__description {
+    padding-right: 60px;
   }
 }
