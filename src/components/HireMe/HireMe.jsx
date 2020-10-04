@@ -5,7 +5,7 @@ import Title from '../Titles/Title';
 
 const HireMe = () => {
   const hireText =
-    'Got a great idea that is running through your mind, or having some challenges that you need help solving? Trust me, I am a good listener.';
+    'Got a great idea that is running through your mind, or having some challenges that you need help solving? Trust me, I’m a good listener.';
   return (
     <section className='hireme-section'>
       <Title

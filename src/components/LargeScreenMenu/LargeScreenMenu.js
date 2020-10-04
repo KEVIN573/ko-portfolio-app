@@ -22,7 +22,7 @@ const LargeScreenMenu = () => {
       <Link className='link' to='services' smooth={true} duration={1000}>
         Services
       </Link>
-      <Link className='link' to='projects' smooth={true} duration={1000}>
+      <Link className='link' to='project' smooth={true} duration={1000}>
         Project
       </Link>
       <Link className='link' to='contact' smooth={true} duration={1000}>

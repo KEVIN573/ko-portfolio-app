@@ -1,8 +1,8 @@
 import React from 'react';
-import { FaLongArrowAltRight } from 'react-icons/fa';
+import { FaLongArrowAltRight, FaLink, FaGithub } from 'react-icons/fa';
 import '../Project/Project.css';
 import Title from '../Titles/Title';
-import ProjectImg1 from '../../images/work/nuru8.png';
+
 import ProjectImg2 from '../../images/work/ko4.png';
 import ProjectImg9 from '../../images/work/ko3.png';
 import ProjectImg3 from '../../images/work/robo.png';
@@ -14,8 +14,9 @@ import ProjectImg7 from '../../images/work/nuru8.png';
 const Project = () => {
   const projectTitleText =
     'I believe in problem solving, and web development is all about solving those problems';
+
   return (
-    <div className='project__section'>
+    <section className='project__section'>
       <Title
         smallTitle='projects'
         bigTitle='My Projects'
@@ -24,12 +25,33 @@ const Project = () => {
       <div className='projects__container'>
         <div className='project__item'>
           <div className='project__photo'>
-            <div
-              className='photo-big'
-              style={{
-                backgroundImage: `url(${ProjectImg1})`,
-              }}
-            ></div>
+            <div className='work-item'>
+              <img className='photo-big' src={ProjectImg7} alt='project-img' />
+              <div className='work-inner'>
+                <div className='work-info'>
+                  <a
+                    href='http://nurupalacehotel.netlify.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span>
+                      <FaLink />
+                    </span>
+                  </a>
+
+                  <a
+                    href='https://github.com/KevinOchiengg/nuru-palace-hotel'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span>
+                      <FaGithub />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div
               className='photo-small'
               style={{
@@ -117,12 +139,32 @@ const Project = () => {
 
         <div className='project__item'>
           <div className='project__photo'>
-            <div
-              className='photo-big'
-              style={{
-                backgroundImage: `url(${ProjectImg4})`,
-              }}
-            ></div>
+            <div className='work-item'>
+              <img className='photo-big' src={ProjectImg4} alt='project-img' />
+              <div className='work-inner'>
+                <div className='work-info'>
+                  <a
+                    href='https://compassionatelove.netlify.app/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span>
+                      <FaLink />
+                    </span>
+                  </a>
+
+                  <a
+                    href='https://github.com/KevinOchiengg/compassionatelove-website'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span>
+                      <FaGithub />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div
               className='photo-small'
               style={{
@@ -205,12 +247,28 @@ const Project = () => {
         </div>
         <div className='project__item'>
           <div className='project__photo'>
-            <div
-              className='photo-big'
-              style={{
-                backgroundImage: `url(${ProjectImg5})`,
-              }}
-            ></div>
+            <div className='work-item'>
+              <img className='photo-big' src={ProjectImg5} alt='project-img' />
+              <div className='work-inner'>
+                <div className='work-info'>
+                  <a
+                    href='https://modest-jackson-faee24.netlify.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span>
+                      <FaLink />
+                    </span>
+                  </a>
+
+                  <a href='http://' target='_blank' rel='noopener noreferrer'>
+                    <span>
+                      <FaGithub />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div
               className='photo-small'
               style={{
@@ -219,7 +277,7 @@ const Project = () => {
             ></div>
           </div>
           <div className='project__description'>
-            <h5>website</h5>
+            <h5>Music Portfolio</h5>
             <p>
               Kayate Koll is a music artist, who had a problem of accelerating
               his career, by his music reaching out to more supporters.
@@ -291,12 +349,32 @@ const Project = () => {
         </div>
         <div className='project__item'>
           <div className='project__photo'>
-            <div
-              className='photo-big'
-              style={{
-                backgroundImage: `url(${ProjectImg2})`,
-              }}
-            ></div>
+            <div className='work-item'>
+              <img className='photo-big' src={ProjectImg2} alt='project-img' />
+              <div className='work-inner'>
+                <div className='work-info'>
+                  <a
+                    href='https://ko-technologies.netlify.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span>
+                      <FaLink />
+                    </span>
+                  </a>
+
+                  <a
+                    href='https://github.com/KevinOchiengg/ko-portfolio-app'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span>
+                      <FaGithub />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div
               className='photo-small'
               style={{
@@ -380,12 +458,31 @@ const Project = () => {
         </div>
         <div className='project__item'>
           <div className='project__photo'>
-            <div
-              className='photo-big'
-              style={{
-                backgroundImage: `url(${ProjectImg3})`,
-              }}
-            ></div>
+            <div className='work-item'>
+              <img className='photo-big' src={ProjectImg3} alt='project-img' />
+              <div className='work-inner'>
+                <div className='work-info'>
+                  <a
+                    href='https://ko-robofriends.netlify.com'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span>
+                      <FaLink />
+                    </span>
+                  </a>
+                  <a
+                    href='https://github.com/KevinOchiengg/Face-Recognition-app'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span>
+                      <FaGithub />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div
               className='photo-small'
               style={{
@@ -450,7 +547,7 @@ const Project = () => {
                 <div className='final__website'>
                   <h6>Website:</h6>
                   <p>
-                    <a href='https://ko-technologies.netlify.app/'>
+                    <a href='https://ko-robofriends.netlify.com'>
                       <span>ko-technologies.com</span>
                     </a>
                   </p>
@@ -460,7 +557,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

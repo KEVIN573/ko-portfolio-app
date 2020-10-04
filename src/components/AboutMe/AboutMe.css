@@ -37,31 +37,9 @@
   );
 }
 
-.about__container .btn {
-  height: 40px;
-  line-height: 40px;
-  padding: 0 30px;
-  color: #fff;
-  letter-spacing: 2px;
-  background-color: #ffc107;
-  border-radius: 0;
-}
-.about__container .about__container .btn:active,
-.about__container .btn:active:focus,
-.about__container.btn:focus,
-.about__container .btn:hover {
-  color: #fff;
-  background-color: #ef805c;
-  text-decoration: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-
 .about__container .about__content h2,
 .about__container .about__content h5 {
-  text-align: left;
+  text-align: center;
 }
 .about__container .about__content h2 {
   font-size: 48px;
