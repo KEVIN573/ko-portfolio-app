@@ -229,8 +229,9 @@
 }
 
 .projects__container .project__item:nth-child(even) .project__description {
-  padding-left: 60px;
+  padding-left: 50px;
   padding-right: 50%;
+  border: 2px solid red;
 }
 
 .projects__container .project__item .project__description h2 {

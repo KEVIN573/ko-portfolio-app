@@ -21,7 +21,7 @@ const AboutMe = () => {
               projects, as well as collaborate in a team setting.
             </p>
             <p>
-              I'm extremely passionate about helping small businesses and
+              I'm extremely passionate in helping small businesses and
               institutions improve their online presence. For instance, I
               converted
               <a href='https://nurupalacehotel.com'>
