@@ -295,27 +295,22 @@ const Project = () => {
                 </li>
                 <li>
                   <span>Research</span>
-
                   <FaLongArrowAltRight />
                 </li>
                 <li>
                   <span>Prototype</span>
-
                   <FaLongArrowAltRight />
                 </li>
                 <li>
                   <span>Design</span>
-
                   <FaLongArrowAltRight />
                 </li>
                 <li>
                   <span>Build</span>
-
                   <FaLongArrowAltRight />
                 </li>
                 <li>
                   <span>Test</span>
-
                   <FaLongArrowAltRight />
                 </li>
                 <li>
@@ -547,7 +542,7 @@ const Project = () => {
                   <h6>Website:</h6>
                   <p>
                     <a href='https://ko-robofriends.netlify.com'>
-                      <span>ko-technologies.com</span>
+                      <span>robofriends.com</span>
                     </a>
                   </p>
                 </div>

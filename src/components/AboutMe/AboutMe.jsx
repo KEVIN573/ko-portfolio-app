@@ -10,15 +10,20 @@ const AboutMe = () => {
             <h5>ABOUT Me</h5>
             <h2>Get To Know Me</h2>
             <p>
-              <strong>Kevin Ochieng</strong> is an experienced Web Developer,
-              tuned in all stages of advanced web development. Knowledgeable in
-              user interface, testing, and debugging processes. Bringing forth
-              expertise in design, installation, testing and maintenance of web
-              systems. Equipped with a diverse and promising skill-set.
-              Proficient in an assortment of technologies, from front-end(HTML5,
-              CSS3, React js and Javascript) to back-end(Node js, Express js and
-              PostgreSQL). Able to effectively self-manage during independent
-              projects, as well as collaborate in a team setting.
+              Hello, I’m <i>Kevin Ochieng</i>, experienced Web Developer, with 4
+              years experience, tuned in all stages of advanced web development.
+            </p>
+            <p>
+              I’m knowledgeable in user interface, testing, and debugging
+              processes. Bringing forth expertise in design, installation,
+              testing and maintenance of web systems.
+            </p>
+            <p>
+              Equipped with a diverse and promising skill-set. Proficient in an
+              assortment of technologies, from front-end(HTML5, CSS3, React js
+              and Javascript) to back-end(Node js, Express js and PostgreSQL).
+              Able to effectively self-manage during independent projects, as
+              well as collaborate in a team setting.
             </p>
             <p>
               I'm extremely passionate in helping small businesses and

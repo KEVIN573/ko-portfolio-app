@@ -63,7 +63,7 @@
   margin-top: 40px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .about__container .about__content h2,
   .about__container .about__content h5 {
     text-align: center;
@@ -86,11 +86,8 @@
     width: 100%;
     margin-top: 40px;
   }
-}
-
-@media (max-width: 991px) {
   .about__container {
-    background-image: none !important;
+    background-image: none;
   }
   .about__container .about__content {
     padding: 100px 20px;
