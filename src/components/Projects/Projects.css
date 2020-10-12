@@ -36,10 +36,6 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* .work-item:hover img {
-  transform: scale(1.1);
-} */
-
 .work-item:hover .work-info {
   background: rgba(39, 55, 85, 0.6);
 }
@@ -205,6 +201,7 @@
 .projects__container .project__item .project__description p {
   line-height: 30px;
   font-size: 15px;
+  text-align: justify;
 }
 
 @media (max-width: 600px) {
@@ -224,11 +221,8 @@
     border-width: 20px;
   }
 
-  .projects__container .project__item .project__description {
-    text-align: center;
-  }
-
-  .projects__container .project__item .project__description h5 {
+  .projects__container .project__item .project__description,
+  h5 {
     text-align: center;
   }
 

@@ -2,7 +2,6 @@ import React from 'react';
 import { FaLongArrowAltRight, FaLink, FaGithub } from 'react-icons/fa';
 import './Projects.css';
 import Title from '../Titles/Title';
-
 import ProjectImg2 from '../../images/work/ko4.png';
 import ProjectImg9 from '../../images/work/ko3.png';
 import ProjectImg3 from '../../images/work/robo.png';
@@ -66,6 +65,9 @@ const Project = () => {
             </p>
             <p>
               They had
+              <span role='img' aria-label='pointing finger'>
+                👉
+              </span>
               <a href='https://nurupalacehotel.com/'>
                 <span>this</span>
               </a>

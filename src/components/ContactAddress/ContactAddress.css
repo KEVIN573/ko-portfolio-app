@@ -1,15 +1,3 @@
-/* Contact section*/
-.contact-section .title {
-  color: #273755;
-}
-
-.contacts-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-row-gap: 2.5rem;
-  grid-column-gap: 50px;
-}
-
 .contacts-left {
   display: flex;
   flex-direction: column;
@@ -47,8 +35,9 @@
 }
 
 .contact-info > .info > p {
-  font-size: 16px;
+  font-size: 15px;
   color: #273755;
+  word-break: break-all;
 }
 
 .contact-info:last-child {

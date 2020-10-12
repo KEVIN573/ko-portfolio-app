@@ -41,9 +41,11 @@
 .about__container .about__content h5 {
   text-align: center;
 }
+
 .about__container .about__content h2 {
   font-size: 48px;
 }
+
 .about__container .about__content p {
   line-height: 30px;
   margin-bottom: 40px;
@@ -68,6 +70,7 @@
   .about__container .about__content h5 {
     text-align: center;
   }
+
   .about__container .about__content h2 {
     font-size: 34px;
     margin-bottom: 40px;
@@ -81,11 +84,7 @@
     line-height: 26px;
     margin-bottom: 40px;
   }
-  .about__container .about__content .btn {
-    display: block;
-    width: 100%;
-    margin-top: 40px;
-  }
+
   .about__container {
     background-image: none;
   }

@@ -16,6 +16,8 @@ html {
   letter-spacing: 2px;
   background-color: #fafcff;
   color: #273755;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1,
