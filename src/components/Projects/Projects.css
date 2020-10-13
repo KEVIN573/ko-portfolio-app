@@ -204,12 +204,12 @@
   text-align: justify;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .projects__container {
     padding: 0 2.25rem;
   }
 
-  .projects__container .project__item .project__photo .photo-small {
+  .project__photo .photo-small {
     display: none;
   }
 
@@ -217,16 +217,19 @@
     margin-bottom: 50px;
   }
 
-  .projects__container .project__item .project__photo .photo-big {
+  .project__photo .photo-big {
     border-width: 20px;
   }
 
-  .projects__container .project__item .project__description,
-  h5 {
+  .project__description {
     text-align: center;
   }
 
-  .projects__container .project__item .project__description p {
+  .project__description h5 {
+    text-align: center;
+  }
+
+  .project__description p {
     font-size: 14px;
     line-height: 26px;
   }
