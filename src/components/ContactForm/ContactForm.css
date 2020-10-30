@@ -3,7 +3,7 @@
 }
 
 #contact-form .field-bag {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* form-field */
@@ -29,29 +29,33 @@
   margin-bottom: 15px;
 }
 
-input[type="text"],input[type="email"],textarea {
+input[type='text'],
+input[type='email'],
+textarea {
   padding: 10px 15px;
-  color:#273755;
+  color: #273755;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+input[type='text']:focus,
+input[type='email']:focus,
+textarea:focus {
   outline: none;
 }
 
-::placeholder { 
-  color:#273755;
-   
+::placeholder {
+  color: #273755;
 }
 
-:-ms-input-placeholder { 
-  color:#273755;
+:-ms-input-placeholder {
+  color: #273755;
 }
 
-::-ms-input-placeholder { 
-  color:#273755;
+::-ms-input-placeholder {
+  color: #273755;
 }
 
-input,textarea {
+input,
+textarea {
   margin: 0;
   border: none;
   font-size: 100%;
@@ -63,10 +67,9 @@ input,textarea {
 
 textarea {
   min-height: 150px;
-  
-} 
+}
 
-#contact-form button{
+#contact-form button {
   position: relative;
   width: 100%;
   font-size: 20px;
@@ -78,9 +81,9 @@ textarea {
   overflow: hidden;
 }
 
-#contact-form button:before{
+#contact-form button:before {
   position: absolute;
-  content: ""; 
+  content: '';
   top: 0px;
   height: 100%;
   left: -25%;
@@ -91,41 +94,38 @@ textarea {
   z-index: 1;
 }
 
-#contact-form button:hover{
+#contact-form button:hover {
   color: #fafcff;
   cursor: pointer;
 }
 
-#contact-form button:hover:before{
+#contact-form button:hover:before {
   width: 170%;
 }
 
-#contact-form button span{
-position: relative;
-	z-index: 9;
+#contact-form button span {
+  position: relative;
+  z-index: 9;
 }
 
-.errorMsg{
-  color:#FF8A8A;
+.errorMsg {
+  color: #ff8a8a;
   margin-top: 5px;
 }
 
-#success-message{
-  color: #8AFF8A;
+#success-message {
+  color: #8aff8a;
+  font-weight: 100;
   margin-top: 5px;
 }
 
 @media screen and (min-width: 576px) {
-  .contact-section{
+  .contact-section {
     padding: 5rem 3rem;
   }
-
 }
 @media screen and (min-width: 992px) {
-
-  .contact-section{
+  .contact-section {
     padding: 5rem 3rem;
   }
-  
-
 }

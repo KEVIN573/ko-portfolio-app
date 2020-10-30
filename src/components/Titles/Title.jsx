@@ -5,7 +5,7 @@ const Title = ({ smallTitle, bigTitle, titleText }) => {
   return (
     <div className='title__section'>
       <div className='title__content'>
-        <h5>{smallTitle}</h5>
+        <h4>{smallTitle}</h4>
         <h2>{bigTitle}</h2>
         <p>{titleText}</p>
       </div>

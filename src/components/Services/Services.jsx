@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../Titles/Title';
-import { servicesData } from './ServicesData';
+import { services } from './ServicesData';
 import '../Services/Services.css';
 
 const Services = () => {
@@ -8,19 +8,20 @@ const Services = () => {
     'Successful people are always looking for opportunities to help others. Let’s work together';
 
   return (
-    <section className='services-container' id='services'>
+    <section class='section bg-grey' id='services'>
       <Title
         smallTitle='Services'
-        bigTitle='My Services'
+        bigTitle='my services'
         titleText={serviceHeadingText}
       />
-      <div className='services-center'>
-        {servicesData.map((service) => {
+      <div class='services-center section-center'>
+        {services.map((service) => {
+          const { icon, title, info } = service;
           return (
-            <article key={service.title} className='service'>
-              <span>{service.icon}</span>
-              <h6>{service.title}</h6>
-              <p>{service.info}</p>
+            <article class='service'>
+              <i class='fas fa-code service-icon'>{icon}</i>
+              <h4>{title}</h4>
+              <p>{info}</p>
             </article>
           );
         })}

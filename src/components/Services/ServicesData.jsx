@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLaptopCode, FaCogs, FaServer, FaHandsHelping } from 'react-icons/fa';
 
-export const servicesData = [
+export const services = [
   {
     icon: <FaLaptopCode />,
     title: 'WEB DEVELOPMENT',

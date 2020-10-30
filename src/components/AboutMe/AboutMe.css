@@ -1,94 +1,46 @@
-.about__container {
-  background-image: url(../../images/background/bg.jpg);
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: auto 100%;
-}
-
-.about__container .about__content {
+.about-center {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  position: relative;
-  z-index: 1;
-  font-size: 18px;
-  text-align: justify;
-  padding: 100px 60px;
+  gap: 3rem 2rem;
 }
 
-.about__items {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.about__container:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: '';
-  display: block;
-  background: linear-gradient(
-    to right,
-    rgba(250, 252, 255, 1) 50%,
-    rgba(138, 171, 202, 0) 140%
-  );
-}
-
-.about__container .about__content h2,
-.about__container .about__content h5 {
-  text-align: center;
-}
-
-.about__container .about__content h2 {
-  font-size: 48px;
-}
-
-.about__container .about__content p {
-  line-height: 30px;
-  margin-bottom: 40px;
-}
-
-.about__container .about__content p a {
-  margin: 0 4px;
-  color: #8aabca;
+.about-info a span {
+  margin: auto 3px;
   text-decoration: underline;
-  font-weight: 900;
+  color: #8aabca;
 }
 
-.about__container .about__content p:last-of-type {
-  margin-bottom: 0;
+.about-img {
+  max-width: 25rem;
+  max-height: 30rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 0.2rem;
+  position: relative;
+  justify-self: center;
 }
-.about__container .about__content .btn {
-  margin-top: 40px;
-}
 
-@media (max-width: 600px) {
-  .about__container .about__content h2,
-  .about__container .about__content h5 {
-    text-align: center;
+@media screen and (min-width: 992px) {
+  .about-center {
+    grid-template-columns: 1fr 1fr;
   }
-
-  .about__container .about__content h2 {
-    font-size: 34px;
-    margin-bottom: 40px;
+  .about-img {
+    position: relative;
   }
-
-  .about__items {
-    grid-column-end: 3;
+  .about-img::before {
+    left: -2rem;
   }
-  .about__container .about__content p {
-    font-size: 14px;
-    line-height: 26px;
-    margin-bottom: 40px;
+  .about-info {
+    align-self: center;
   }
 
-  .about__container {
-    background-image: none;
-  }
-  .about__container .about__content {
-    padding: 100px 20px;
+  .about-img::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0.25rem solid #8aabca;
+    top: 2rem;
+    right: -2rem;
+    border-radius: 0.2rem;
   }
 }

@@ -22,7 +22,7 @@ const Project = () => {
         titleText={projectTitleText}
       />
       <div className='projects__container'>
-        <div className='project__item'>
+        <article className='project__item'>
           <div className='project__photo'>
             <div className='work-item'>
               <img className='photo-big' src={ProjectImg7} alt='project-img' />
@@ -59,7 +59,9 @@ const Project = () => {
             ></div>
           </div>
           <div className='project__description'>
-            <h5>Nuru Palace Hotel</h5>
+            <h3>
+              <span>01.</span>Nuru Palace Hotel
+            </h3>
             <p>
               Nuru Palace is a holiday letting company, based in Nakuru, Kenya.
             </p>
@@ -118,25 +120,25 @@ const Project = () => {
               <h5>Details</h5>
               <div className='project__info'>
                 <div className='client__name'>
-                  <h6>Client:</h6>
+                  <h4>Client:</h4>
                   <p>Nuru Palace</p>
                 </div>
                 <div className='service__offered'>
-                  <h6>Services:</h6>
+                  <h4>Services:</h4>
                   <p>Web development</p>
                 </div>
                 <div className='final__website'>
-                  <h6>Website:</h6>
+                  <h4>Website:</h4>
                   <p>
                     <a href='https://nurupalacehotel.netlify.com/'>
-                      nurupalace.com
+                      <span>nurupalace.com</span>
                     </a>
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </article>
 
         <div className='project__item'>
           <div className='project__photo'>
@@ -174,7 +176,9 @@ const Project = () => {
             ></div>
           </div>
           <div className='project__description'>
-            <h5>Compassionate Love Center</h5>
+            <h3>
+              <span>02.</span>Compassionate love
+            </h3>
             <p>
               Compassionate Love is a christian charity organization, based in
               Kenya. The organization had no website to spread their word and
@@ -227,15 +231,15 @@ const Project = () => {
               <h5>Details</h5>
               <div className='project__info'>
                 <div className='client__name'>
-                  <h6>Client:</h6>
+                  <h4>Client:</h4>
                   <p>Compassionate Love</p>
                 </div>
                 <div className='service__offered'>
-                  <h6>Services:</h6>
+                  <h4>Services:</h4>
                   <p>Web development</p>
                 </div>
                 <div className='final__website'>
-                  <h6>Website:</h6>
+                  <h4>Website:</h4>
                   <p>
                     <a href='https://compassionatelove.netlify.app/'>
                       <span>Compassionate Love</span>
@@ -278,7 +282,9 @@ const Project = () => {
             ></div>
           </div>
           <div className='project__description'>
-            <h5>Music Portfolio</h5>
+            <h3>
+              <span>03.</span>Music Portfolio
+            </h3>
             <p>
               Kayate Koll is a music artist, who had a problem of accelerating
               his career, by his music reaching out to more supporters.
@@ -324,15 +330,15 @@ const Project = () => {
               <h5>Details</h5>
               <div className='project__info'>
                 <div className='client__name'>
-                  <h6>Client:</h6>
+                  <h4>Client:</h4>
                   <p>Kayate Koll</p>
                 </div>
                 <div className='service__offered'>
-                  <h6>Services:</h6>
+                  <h4>Services:</h4>
                   <p>Web design</p>
                 </div>
                 <div className='final__website'>
-                  <h6>Website:</h6>
+                  <h4>Website:</h4>
                   <p>
                     <a href='https://modest-jackson-faee24.netlify.com/'>
                       <span>KayateKoll.com</span>
@@ -379,7 +385,9 @@ const Project = () => {
             ></div>
           </div>
           <div className='project__description'>
-            <h5>My Portfolio</h5>
+            <h3>
+              <span>04.</span>My Portfolio
+            </h3>
 
             <p>
               This is my portfolio website where I'm able to showcase and bring
@@ -433,15 +441,15 @@ const Project = () => {
               <h5>Details</h5>
               <div className='project__info'>
                 <div className='client__name'>
-                  <h6>Client:</h6>
+                  <h4>Client:</h4>
                   <p>K&O Technologies</p>
                 </div>
                 <div className='service__offered'>
-                  <h6>Services:</h6>
+                  <h4>Services:</h4>
                   <p>Portfolio development</p>
                 </div>
                 <div className='final__website'>
-                  <h6>Website:</h6>
+                  <h4>Website:</h4>
                   <p>
                     <a href='https://ko-technologies.netlify.com/'>
                       <span>k&o technologies</span>
@@ -487,7 +495,9 @@ const Project = () => {
             ></div>
           </div>
           <div className='project__description'>
-            <h5>Face Recognition App</h5>
+            <h3>
+              <span>05.</span>Face Recognition App
+            </h3>
             <p>
               This a face recognition application built in react. You can paste
               your image url, and the app will do the magic of detecting a face
@@ -533,15 +543,15 @@ const Project = () => {
               <h5>Details</h5>
               <div className='project__info'>
                 <div className='client__name'>
-                  <h6>Client:</h6>
+                  <h4>Client:</h4>
                   <p>K&O Technologies</p>
                 </div>
                 <div className='service__offered'>
-                  <h6>Services:</h6>
+                  <h4>Services:</h4>
                   <p>Learning</p>
                 </div>
                 <div className='final__website'>
-                  <h6>Website:</h6>
+                  <h4>Website:</h4>
                   <p>
                     <a href='https://ko-robofriends.netlify.com'>
                       <span>robofriends.com</span>

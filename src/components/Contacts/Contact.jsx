@@ -8,7 +8,7 @@ const Contacts = () => {
   const aboutText =
     'Feel free to drop me a line! I will get back to you within 24 hours. ';
   return (
-    <section className='contact-section' id='contact'>
+    <section className='section contact-section' id='contact'>
       <Title
         smallTitle='contact'
         bigTitle='Get in Touch'

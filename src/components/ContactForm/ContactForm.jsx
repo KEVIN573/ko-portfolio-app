@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-// import spinner from '../Spinner/Spinner';
 import '../ContactForm/ContactForm.css';
 
 const formSchema = Yup.object().shape({
@@ -19,8 +18,8 @@ const formSchema = Yup.object().shape({
 });
 
 const SignupForm = () => {
-  /* Server State Handling */
   const [serverState, setServerState] = useState();
+
   const handleServerResponse = (ok, msg) => {
     setServerState({ ok, msg });
   };

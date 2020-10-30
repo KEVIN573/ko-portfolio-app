@@ -1,74 +1,45 @@
-/* services */
-.services-container {
-  text-align: center;
-}
-
-.services-container .title {
-  color: #273755;
-}
-
 .services-center {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
-  grid-row-gap: 2.5rem;
-  grid-column-gap: 50px;
+  padding-top: 5rem;
 }
 
 .service {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1.5rem;
-  margin: 1.25rem;
-  box-shadow: 0 0 30px 0 rgba(33, 30, 25, 0.3);
-  transition: box-shadow 0.5s;
-}
-
-.service:hover {
-  box-shadow: 0 0 30px 0 rgba(33, 30, 25, 0.4);
-}
-
-.service:nth-child(odd) {
-  background: #8aabca;
-}
-.service span {
+  background: #fff;
+  padding: 3rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.2rem;
   text-align: center;
-  color: #273755;
-  font-size: 2.5rem;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+.service-icon {
+  font-size: 2rem;
   margin-bottom: 1.5rem;
 }
-.services-container h6 {
-  font-size: 16px;
-  margin-bottom: 30px;
-  color: #273755;
-  letter-spacing: 1.4;
+
+.service p {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
-.services-container p {
-  width: 100%;
-  margin: 0 auto;
-  color: #273755;
+.service:hover {
+  background: #8aabca;
+  color: #dbe5ef;
+}
+.service:hover p {
+  color: #dbe5ef;
+}
+
+@media screen and (min-width: 676px) {
+  .services-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
 }
 @media screen and (min-width: 992px) {
   .services-center {
-    /* width: 95vw; */
-    /* max-width: 1170px; */
-  }
-  .services-container {
-    margin: 0;
-    padding: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
-@media screen and (min-width: 1200px) {
-  .services p {
-    width: 100%;
-  }
-
-  .services-container {
-    margin: 0;
-    padding: 3rem;
-  }
-}
-/*end of services */

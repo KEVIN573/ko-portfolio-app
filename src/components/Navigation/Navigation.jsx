@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useSpring, animated, config } from 'react-spring';
+import { useSpring, animated } from 'react-spring';
 import '../Navigation/Navigation.css';
 import Logo from '../Logo/Logo';
 import Burger from '../Burger/Burger';

@@ -2,8 +2,8 @@ import React from 'react';
 import '../Skills/Skills.css';
 
 const Skills = () => (
-  <section className='skills-section'>
-    <div className='skills-container'>
+  <section className='section skills-section'>
+    <div className='skills-container section-center'>
       <div className='skills-left'>
         <div className='skills'>
           <div className='skills-label'>

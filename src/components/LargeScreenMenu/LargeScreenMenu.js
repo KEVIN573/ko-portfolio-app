@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSpring, animated, config } from 'react-spring';
 import { Link, animateScroll as scroll } from 'react-scroll';
+
 import '../LargeScreenMenu/LargeScreenMenu.css';
 
 const LargeScreenMenu = () => {

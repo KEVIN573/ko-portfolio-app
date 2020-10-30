@@ -1,27 +1,25 @@
 import React from 'react';
+import ProfileImg from '../../images/profile-images/profile.jpg';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import SocialLinks from '../SocialLinks/SocialLinks';
 import '../Hero/Hero.css';
 
 const Hero = () => {
   return (
-    <header className='intro-section' id='home'>
-      <div className='intro-content'>
-        <h1>
-          <span>Web</span> Developer
-        </h1>
-        <h6>from Kenya</h6>
-        <p className='tagline'>
-          <span className='change-container'>
-            <span className='changing'>get what you want!</span>
-            <span className='changing'>how you want it!</span>
-            <span className='changing'>when you want it!</span>
-          </span>
-        </p>
-        <div className='header-btn'>
-          <Link className='btn' to='contact' smooth={true}>
-            <span>REQUEST A Quote</span>
+    <header className='hero'>
+      <div className='section-center hero-center'>
+        <article class='hero-info'>
+          <div class='underline'></div>
+          <h1>Hello, i'm Kevin</h1>
+          <h4>freelance fullstack web developer</h4>
+          <Link href='contact.html' className='btn hero-btn'>
+            <span>hire me</span>
           </Link>
-        </div>
+
+          <div className='social-icons hero-icons'>
+            <SocialLinks />
+          </div>
+        </article>
       </div>
     </header>
   );

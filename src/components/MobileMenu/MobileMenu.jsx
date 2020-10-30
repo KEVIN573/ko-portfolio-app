@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
 import { useSpring, animated } from 'react-spring';
 import './MobileMenu.css';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const CollapseMenu = (props) => {
   const { open } = useSpring({ open: props.navbarState ? 0 : 1 });

@@ -1,6 +1,6 @@
 .projects__container {
   margin: 0;
-  padding: 0 2.5rem;
+  padding: 5rem 2.5rem 0 2.5rem;
 }
 
 .work-item .work-inner {
@@ -11,7 +11,7 @@
   top: 0;
   background: transparent;
   z-index: 1;
-  transition: all 0.4s ease 0s;
+  transition: all 0.3s linear;
 }
 
 .work-info {
@@ -33,7 +33,7 @@
 .work-info,
 .work-item img {
   border: 30px solid #fff;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s linear;
 }
 
 .work-item:hover .work-info {
@@ -60,7 +60,7 @@
 .work-item:hover .work-info span {
   opacity: 1;
   top: 0;
-  transition: all 0.6s ease 0s;
+  transition: all 0.3s linear;
 }
 
 .work-info span:hover {
@@ -71,11 +71,11 @@
   position: relative;
   margin-bottom: 100px;
   background-color: #fff;
-  box-shadow: 0 0 30px 0 rgba(33, 30, 25, 0.3);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .project__item img {
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -107,6 +107,7 @@
   width: 100%;
   height: 100%;
   border: 30px solid #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .photo-small {
@@ -117,7 +118,7 @@
   width: 50%;
   height: 50%;
   border: 20px solid #fff;
-  box-shadow: 0 0 30px 0 rgba(33, 30, 25, 0.3);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .project__item:nth-child(even) .project__photo .photo-small {
@@ -141,11 +142,13 @@
   text-align: left;
   margin: 20px 0;
   color: #8aabca;
-  font-size: 14px;
+  font-size: 17px;
 }
-
-.project__details__container h6 {
-  font-size: 10px;
+.project__description h3 span {
+  margin-right: 10px;
+}
+.project__details__container h4,
+h3 {
   color: #8aabca;
 }
 
@@ -208,7 +211,9 @@
   .projects__container {
     padding: 0 2.25rem;
   }
-
+  .project__description h3 {
+    margin-top: 16px;
+  }
   .project__photo .photo-small {
     display: none;
   }
@@ -219,6 +224,7 @@
 
   .project__photo .photo-big {
     border-width: 20px;
+    box-shadow: none;
   }
 
   .project__description {
@@ -235,9 +241,16 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .projects__container {
     padding: 0 1.25rem;
+  }
+  .project__description h3 {
+    margin-top: 16px;
+  }
+  .project__photo .photo-big {
+    border-width: 20px;
+    box-shadow: none;
   }
 
   .projects__container .project__item .project__photo {

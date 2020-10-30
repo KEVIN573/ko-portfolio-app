@@ -1,50 +1,14 @@
-/* .hireme-section {
-  margin: 5rem 0;
-} */
-
 .hire-quote-btn-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin: 5rem;
 }
 .hire-quote-btn-container .hire-quote-btn {
-  text-decoration: none;
   font-size: 1rem;
-  color: #273755;
-  background-color: #8aabca;
-  padding: 15px;
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  text-transform: uppercase;
+  padding: 0.9375rem;
 }
 
-.hire-quote-btn-container .hire-quote-btn:before {
-  position: absolute;
-  content: '';
-  top: 0px;
-  height: 100%;
-  left: -25%;
-  width: 0%;
-  background-color: #273755;
-  transform: skew(50deg);
-  transition-duration: 1s;
-  z-index: 1;
-}
-
-.hire-quote-btn-container .hire-quote-btn:hover {
-  color: #fafcff;
-}
-
-.hire-quote-btn-container .hire-quote-btn:hover:before {
-  width: 172%;
-}
-
-.hire-quote-btn-container .hire-quote-btn span {
-  position: relative;
-  z-index: 9;
-}
 .hireme-section h1 {
   color: #273755;
   font-weight: 700;

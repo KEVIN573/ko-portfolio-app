@@ -1,5 +1,4 @@
 .mobile__links__container {
-  background: #273755;
   position: fixed;
   top: 12vh;
   left: 0;
@@ -8,15 +7,15 @@
 }
 
 .mobile__links-content {
+  display: flex;
+  flex-direction: column;
+  background: #8aabca;
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
-  min-width: 50vw;
-  min-height: 50vh;
-  background: #273755;
-  display: flex;
-  flex-direction: column;
+  width: 100vw;
+  height: 50vh;
 }
 
 .mobile__links-content .link {
@@ -24,7 +23,7 @@
   font-size: 1rem;
   text-decoration: none;
   padding: 1rem 0;
-  color: #fafcff;
+  color: #273755;
   text-align: center;
   font-weight: 400;
   text-transform: uppercase;
@@ -33,9 +32,8 @@
 }
 
 .mobile__links-content .link:hover {
-  color: #8aabca;
   padding-left: 15px;
-  background: rgba(138, 171, 202, 0.2);
+  background: rgba(204, 228, 250, 0.2);
 }
 
 .mobile__links-content .link:first-child {

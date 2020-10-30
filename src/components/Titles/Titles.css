@@ -1,10 +1,8 @@
 .title__content {
   text-align: center;
-  margin: 80px 40px;
 }
-
-.title__content h2 {
-  font-size: 48px;
+.title__content h4 {
+  color: #8aabca;
 }
 .title__content p {
   display: inline-block;
@@ -12,10 +10,11 @@
   line-height: 24px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .title__section .title__content h2 {
     font-size: 38px;
   }
+
   .title__section .title__content p {
     font-size: 15px;
   }

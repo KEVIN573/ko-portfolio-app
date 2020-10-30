@@ -14,8 +14,8 @@ const HireMe = () => {
         titleText={hireText}
       />
       <div className='hire-quote-btn-container'>
-        <Link className='hire-quote-btn' to='contact' smooth={true}>
-          <span>REQUEST A QUOTE</span>
+        <Link className='btn hire-quote-btn ' to='contact' smooth={true}>
+          <span>get a quote</span>
         </Link>
       </div>
       <div className='divider'>
