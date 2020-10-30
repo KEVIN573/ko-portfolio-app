@@ -3,8 +3,11 @@
   gap: 3rem 2rem;
 }
 
+.about-info p {
+  text-align: justify;
+}
 .about-info a span {
-  margin: auto 3px;
+  margin: auto 5px;
   text-decoration: underline;
   color: #8aabca;
 }

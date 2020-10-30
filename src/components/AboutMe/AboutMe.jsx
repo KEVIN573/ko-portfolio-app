@@ -2,17 +2,16 @@ import React from 'react';
 import '../AboutMe/AboutMe.css';
 import Title from '../Titles/Title';
 import ProfileImg from '../../images/profile-images/profile.jpg';
-import { Link } from 'react-scroll';
 
 const AboutMe = () => {
   return (
-    <section class='section about' id='about'>
-      <div class='section-center about-center'>
-        <article class='about-img'>
-          <img src={ProfileImg} class='about-img' alt='about img' />
+    <section className='section about' id='about'>
+      <div className='section-center about-center'>
+        <article className='about-img'>
+          <img src={ProfileImg} className='about-img' alt='about img' />
         </article>
 
-        <article class='about-info'>
+        <article className='about-info'>
           <Title smallTitle='About' bigTitle='Get To Know Me' />
 
           <p>

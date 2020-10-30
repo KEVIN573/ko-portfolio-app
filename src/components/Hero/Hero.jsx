@@ -8,11 +8,11 @@ const Hero = () => {
   return (
     <header className='hero'>
       <div className='section-center hero-center'>
-        <article class='hero-info'>
-          <div class='underline'></div>
+        <article className='hero-info'>
+          <div className='underline'></div>
           <h1>Hello, i'm Kevin</h1>
           <h4>freelance fullstack web developer</h4>
-          <Link href='contact.html' className='btn hero-btn'>
+          <Link to='contact' className='btn hero-btn'>
             <span>hire me</span>
           </Link>
 

@@ -8,18 +8,18 @@ const Services = () => {
     'Successful people are always looking for opportunities to help others. Let’s work together';
 
   return (
-    <section class='section bg-grey' id='services'>
+    <section className='section bg-grey' id='services'>
       <Title
         smallTitle='Services'
         bigTitle='my services'
         titleText={serviceHeadingText}
       />
-      <div class='services-center section-center'>
+      <div className='services-center section-center'>
         {services.map((service) => {
           const { icon, title, info } = service;
           return (
-            <article class='service'>
-              <i class='fas fa-code service-icon'>{icon}</i>
+            <article key={title} className='service'>
+              <i className='fas fa-code service-icon'>{icon}</i>
               <h4>{title}</h4>
               <p>{info}</p>
             </article>
