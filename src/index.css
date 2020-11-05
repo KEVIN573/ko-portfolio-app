@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 
-img:not(.nav-logo) {
+img:not(.logo) {
   width: 100%;
   display: block;
 }

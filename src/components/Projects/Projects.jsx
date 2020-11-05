@@ -2,13 +2,14 @@ import React from 'react';
 import { FaLongArrowAltRight, FaLink, FaGithub } from 'react-icons/fa';
 import './Projects.css';
 import Title from '../Titles/Title';
-import ProjectImg2 from '../../images/work/ko4.png';
-import ProjectImg9 from '../../images/work/ko3.png';
-import ProjectImg3 from '../../images/work/robo.png';
-import ProjectImg4 from '../../images/work/compassionate1.png';
-import ProjectImg8 from '../../images/work/compassionate.png';
-import ProjectImg5 from '../../images/work/music.jpg';
-import ProjectImg7 from '../../images/work/nuru8.png';
+import ProjectImg1 from '../../images/work/nuru1.png';
+import ProjectImg2 from '../../images/work/nuru2.png';
+import ProjectImg3 from '../../images/work/compassionate1.png';
+import ProjectImg4 from '../../images/work/compassionate2.png';
+import ProjectImg5 from '../../images/work/ko1.png';
+import ProjectImg6 from '../../images/work/kayate1.png';
+import ProjectImg7 from '../../images/work/kayate2.jpg';
+import ProjectImg8 from '../../images/work/robo1.png';
 
 const Project = () => {
   const projectTitleText =
@@ -25,7 +26,7 @@ const Project = () => {
         <article className='project__item'>
           <div className='project__photo'>
             <div className='work-item'>
-              <img className='photo-big' src={ProjectImg7} alt='project-img' />
+              <img className='photo-big' src={ProjectImg1} alt='project-img' />
               <div className='work-inner'>
                 <div className='work-info'>
                   <a
@@ -54,7 +55,7 @@ const Project = () => {
             <div
               className='photo-small'
               style={{
-                backgroundImage: `url(${ProjectImg7})`,
+                backgroundImage: `url(${ProjectImg2})`,
               }}
             ></div>
           </div>
@@ -143,7 +144,7 @@ const Project = () => {
         <div className='project__item'>
           <div className='project__photo'>
             <div className='work-item'>
-              <img className='photo-big' src={ProjectImg4} alt='project-img' />
+              <img className='photo-big' src={ProjectImg3} alt='project-img' />
               <div className='work-inner'>
                 <div className='work-info'>
                   <a
@@ -171,7 +172,7 @@ const Project = () => {
             <div
               className='photo-small'
               style={{
-                backgroundImage: `url(${ProjectImg8})`,
+                backgroundImage: `url(${ProjectImg4})`,
               }}
             ></div>
           </div>
@@ -253,7 +254,7 @@ const Project = () => {
         <div className='project__item'>
           <div className='project__photo'>
             <div className='work-item'>
-              <img className='photo-big' src={ProjectImg5} alt='project-img' />
+              <img className='photo-big' src={ProjectImg6} alt='project-img' />
               <div className='work-inner'>
                 <div className='work-info'>
                   <a
@@ -277,7 +278,7 @@ const Project = () => {
             <div
               className='photo-small'
               style={{
-                backgroundImage: `url(${ProjectImg5})`,
+                backgroundImage: `url(${ProjectImg7})`,
               }}
             ></div>
           </div>
@@ -352,7 +353,7 @@ const Project = () => {
         <div className='project__item'>
           <div className='project__photo'>
             <div className='work-item'>
-              <img className='photo-big' src={ProjectImg2} alt='project-img' />
+              <img className='photo-big' src={ProjectImg5} alt='project-img' />
               <div className='work-inner'>
                 <div className='work-info'>
                   <a
@@ -380,7 +381,7 @@ const Project = () => {
             <div
               className='photo-small'
               style={{
-                backgroundImage: `url(${ProjectImg9})`,
+                backgroundImage: `url(${ProjectImg5})`,
               }}
             ></div>
           </div>
@@ -463,7 +464,7 @@ const Project = () => {
         <div className='project__item'>
           <div className='project__photo'>
             <div className='work-item'>
-              <img className='photo-big' src={ProjectImg3} alt='project-img' />
+              <img className='photo-big' src={ProjectImg8} alt='project-img' />
               <div className='work-inner'>
                 <div className='work-info'>
                   <a
@@ -490,7 +491,7 @@ const Project = () => {
             <div
               className='photo-small'
               style={{
-                backgroundImage: `url(${ProjectImg3})`,
+                backgroundImage: `url(${ProjectImg8})`,
               }}
             ></div>
           </div>
