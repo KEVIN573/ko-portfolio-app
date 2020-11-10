@@ -26,7 +26,7 @@ nav {
 }
 
 .logo {
-  height: 30px;
+  height: 24px;
   object-fit: contain;
   margin-left: 20px;
 }
@@ -136,7 +136,7 @@ nav {
   }
 
   .logo {
-    height: 32px;
+    height: 30px;
   }
   .burger-wrapper {
     display: none;

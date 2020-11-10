@@ -1,5 +1,4 @@
 import React from 'react';
-import ProfileImg from '../../images/profile-images/profile.jpg';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import SocialLinks from '../SocialLinks/SocialLinks';
 import '../Hero/Hero.css';
