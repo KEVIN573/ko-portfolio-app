@@ -63,7 +63,6 @@ export const projects = [
     photoSmall: ProjectImg10,
     projectTitle: 'Face Recognition App',
     projectDetails:
-      'This is my portfolio website where I am able to showcase and bring forth expertise in design, installation, testing and maintenance of web systems. You might be tempted to ask, "why a portfolio as one of his projects?" Well, as a web developer, I believe in problem solving. This portfolio helps me connect with my clients and my fellow developers, to which I am able to learn and grow my ideas.',
-    service: 'Web development',
+      'This a face recognition application built in react. You can paste your image url, and the app will do the magic of detecting a face in your image. Creating this project helped me master react, APIs and most full stack web development.',
   },
 ];
