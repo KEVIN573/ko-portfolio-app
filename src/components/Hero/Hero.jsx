@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import SocialLinks from '../SocialLinks/SocialLinks';
 import '../Hero/Hero.css';
 
@@ -11,9 +11,16 @@ const Hero = () => {
           <div className='underline'></div>
           <h1>Hello, i'm Kevin</h1>
           <h4>freelance fullstack web developer</h4>
-          <Link to='contact' className='btn hero-btn'>
-            <span>hire me</span>
-          </Link>
+          <button>
+            <Link
+              className='hero-btn'
+              to='contact'
+              smooth={true}
+              duration={1000}
+            >
+              hire me
+            </Link>
+          </button>
 
           <div className='social-icons hero-icons'>
             <SocialLinks />

@@ -1,0 +1,46 @@
+.button-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button-part .hire-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  margin: 15px;
+  border-width: 1px;
+  border-style: solid;
+  height: 50px;
+  position: relative;
+  transition: all 0.5s ease;
+  width: 160px;
+}
+
+.button-part .upwork {
+  background-image: url(../../images/Freelancer/upwork2.png);
+  background-position: center;
+  border-color: #6fda44;
+}
+
+.button-part .freelancer {
+  background-image: url(../../images/Freelancer/freelancer2.png);
+  border-color: #0088c3;
+  background-position: center;
+}
+
+.hire-btn::after {
+  border-top: 14px solid #0088c3;
+  border-left: 14px solid transparent;
+  content: '';
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+
+.upwork.hire-btn::after {
+  border-top: 14px solid #6fda44;
+}

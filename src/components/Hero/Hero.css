@@ -41,12 +41,54 @@
 .hero-icons {
   justify-items: start;
 }
-.hero-btn {
+
+.hero-info button {
   margin-top: 1.25rem;
+  position: relative;
+  width: 30%;
+  font-size: 16px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  background-color: #dbe5ef;
+  border: none;
+  color: #273755;
+  overflow: hidden;
+  outline: none;
+  border-radius: 2px;
+}
+
+.hero-info button:before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  height: 100%;
+  left: -25%;
+  width: 0%;
+  background-color: #8aabca;
+  transform: skew(50deg);
+  transition-duration: 1s;
+  z-index: 1;
+}
+
+.hero-info button:hover {
+  cursor: pointer;
+  color: #273755;
+}
+
+.hero-info button:hover:before {
+  width: 170%;
+}
+
+.hero-info button a {
+  position: relative;
+  z-index: 9;
 }
 
 @media screen and (min-width: 992px) {
   .hero-center {
     grid-template-columns: 1fr 1fr;
+  }
+  .hero-info button {
+    font-size: 18px;
   }
 }

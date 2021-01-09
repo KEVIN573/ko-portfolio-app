@@ -4,9 +4,11 @@
   justify-content: center;
   margin: 5rem;
 }
+
 .hire-quote-btn-container .hire-quote-btn {
   font-size: 1rem;
   padding: 0.9375rem;
+  cursor: pointer;
 }
 
 .hireme-section h1 {
@@ -64,61 +66,6 @@
   justify-content: center;
 }
 
-/* .hireme-text p {
-  font-size: 18px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-} */
-.button-part {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.button-part .hire-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: 80%;
-  margin: 15px;
-  border-width: 1px;
-  border-style: solid;
-  height: 50px;
-  position: relative;
-  transition: all 0.5s ease;
-  width: 160px;
-}
-
-.button-part .upwork {
-  background-image: url(../../images/Freelancer/upwork2.png);
-  background-position: center;
-  border-color: #6fda44;
-}
-
-.button-part .freelancer {
-  background-image: url(../../images/Freelancer/freelancer2.png);
-  border-color: #0088c3;
-  background-position: center;
-}
-
-.hire-btn::after {
-  border-top: 14px solid #0088c3;
-  border-left: 14px solid transparent;
-  content: '';
-  position: absolute;
-  right: 1px;
-  top: 1px;
-}
-
-.upwork.hire-btn::after {
-  border-top: 14px solid #6fda44;
-}
-
-@media screen and (min-width: 375px) {
-}
-
 @media screen and (min-width: 576px) {
   .button-part {
     flex-direction: row;
@@ -137,9 +84,6 @@
     font-size: 46px;
   }
 
-  .hireme-section p {
-    font-size: 20px;
-  }
   .button-part .hire-btn {
     width: 220px;
   }

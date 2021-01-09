@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { useSpring, animated, config } from 'react-spring';
+import { useSpring, animated } from 'react-spring';
 import { links } from './data';
 import logo from '../../images/logos/ko-logo2.png';
 import '../Navbar/Navbar.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
     if (showLinks) {
-      linksContainerRef.current.style.height = `${linksHeight}px`;
+      linksContainerRef.current.style.height = `12px`;
     } else {
       linksContainerRef.current.style.height = '0px';
     }
@@ -49,7 +49,7 @@ const Navbar = () => {
                     className='link'
                     to={path}
                     smooth={true}
-                    duration={1000}
+                    onClick={navToggle}
                   >
                     {text}
                   </Link>

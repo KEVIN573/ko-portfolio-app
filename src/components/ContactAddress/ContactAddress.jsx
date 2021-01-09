@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPhone, FaMapMarkerAlt, FaRegEnvelope } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import '../ContactAddress/ContactAddress.css';
 
 //Address Component
@@ -33,9 +34,14 @@ const Address = () => {
         <div className='info'>
           <h4>Email : </h4>
           <p>
-            <a href='mailto:kevinochieng932@gmail.com'>
+            <Link
+              to={{
+                pathname: 'mailto:kevinochieng932@gmail.com',
+              }}
+              target='_blank'
+            >
               kevinohkelvin932@gmail.com
-            </a>
+            </Link>
           </p>
         </div>
       </div>

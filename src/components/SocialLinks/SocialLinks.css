@@ -1,4 +1,11 @@
 /* social-links */
+.social-icons {
+  display: grid;
+  margin-top: 3rem;
+  width: 20rem;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
 .social-links {
   display: flex;
   justify-content: center;

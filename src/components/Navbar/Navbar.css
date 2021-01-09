@@ -15,6 +15,12 @@ nav {
   justify-content: space-between;
   height: 12vh;
 }
+.nav-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 .nav-toggle {
   font-size: 1.5rem;
   color: #273755;
@@ -23,6 +29,7 @@ nav {
   transition: all ease-in-out 0.3s;
   cursor: pointer;
   margin-right: 20px;
+  outline: none;
 }
 
 .logo {
@@ -78,6 +85,7 @@ nav {
   border: none;
   background: transparent;
   padding: 13px;
+  outline: none;
 }
 
 .burger-wrapper button span {

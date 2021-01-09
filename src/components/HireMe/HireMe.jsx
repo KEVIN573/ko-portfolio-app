@@ -1,7 +1,8 @@
 import React from 'react';
 import '../HireMe/HireMe.css';
-import { Link } from 'react-scroll';
 import Title from '../Titles/Title';
+import Freelancing from '../Freelancing/Freelancing';
+import { Link } from 'react-scroll';
 
 const HireMe = () => {
   const hireText =
@@ -24,38 +25,7 @@ const HireMe = () => {
       <div className='hireme-text'>
         <p>HIRE ME</p>
       </div>
-      <div className='button-part'>
-        <a
-          href='https://www.upwork.com/freelancers/~01c404581bb31bf21d'
-          target='blank'
-          className='hire-btn upwork'
-        >
-          <span
-            className='ink'
-            style={{
-              height: '200px',
-              width: '200px',
-              top: '75px',
-              left: '-20px',
-            }}
-          ></span>
-        </a>
-        <a
-          href='https://www.freelancer.com/u/KevinOchien'
-          target='blank'
-          className='hire-btn freelancer'
-        >
-          <span
-            className='ink'
-            style={{
-              height: '200px',
-              width: '200px',
-              top: '75px',
-              left: '-20px',
-            }}
-          ></span>
-        </a>
-      </div>
+      <Freelancing />
     </section>
   );
 };

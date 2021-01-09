@@ -1,8 +1,12 @@
 .projects__container {
   margin: 0;
-  padding: 5rem 2.5rem 0 2.5rem;
+  padding: 4rem 2.5rem 0 2.5rem;
 }
 
+.projects__container a {
+  color: #8aabca;
+  text-decoration: none;
+}
 .work-item .work-inner {
   position: absolute;
   width: 100%;
@@ -18,9 +22,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.work-info {
   width: 100%;
   height: 100%;
   position: relative;
@@ -32,7 +33,7 @@
 .work-item,
 .work-info,
 .work-item img {
-  border: 30px solid #fff;
+  border: 30px solid #fafcff;
   transition: all 0.3s linear;
 }
 
@@ -70,13 +71,8 @@
 .project__item {
   position: relative;
   margin-bottom: 100px;
-  background-color: #fff;
+  background-color: #fafcff;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
-}
-
-.project__item img {
-  object-fit: cover;
-  width: 100%;
 }
 
 .project__photo {
@@ -85,6 +81,11 @@
   left: 0;
   width: 42%;
   height: 100%;
+}
+
+.project__item img {
+  object-fit: contain;
+  width: 100%;
 }
 
 .project__item:nth-child(even) .project__photo {
@@ -108,7 +109,7 @@
   z-index: 1;
   width: 100%;
   height: 100%;
-  border: 30px solid #fff;
+  border: 30px solid #fafcff;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -119,7 +120,7 @@
   z-index: 2;
   width: 50%;
   height: 50%;
-  border: 20px solid #fff;
+  border: 20px solid #fafcff;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -178,11 +179,11 @@ h3 {
   padding: 60px 60px 60px 50%;
 }
 
-.project__description p a span {
-  margin: 0 5px;
+.project__description p a {
   color: #8aabca;
   font-weight: 900;
   text-decoration: underline;
+  text-transform: lowercase;
 }
 
 .projects__container .project__item:nth-child(even) .project__description {
@@ -205,11 +206,21 @@ h3 {
 
 @media (max-width: 767px) {
   .projects__container {
-    padding: 0 2.25rem;
+    padding: 0rem;
   }
   .project__description h3 {
     margin-top: 16px;
   }
+  .project__item img {
+    object-fit: cover;
+  }
+
+  .work-item,
+  .work-info,
+  .work-item img {
+    border: none;
+  }
+
   .project__photo .photo-small {
     display: none;
   }
@@ -238,14 +249,24 @@ h3 {
 
 @media (max-width: 992px) {
   .projects__container {
-    padding: 0 1.25rem;
+    padding: 0rem;
   }
+  .project__item img {
+    object-fit: cover;
+  }
+
   .project__description h3 {
     margin-top: 16px;
   }
   .project__photo .photo-big {
     border-width: 20px;
     box-shadow: none;
+  }
+
+  .work-item,
+  .work-info,
+  .work-item img {
+    border: 20px solid #fafcff;
   }
 
   .projects__container .project__item .project__photo {

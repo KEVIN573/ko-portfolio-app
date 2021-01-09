@@ -8,20 +8,23 @@ import Footer from './components/Footer/Footer';
 import HireMe from './components/HireMe/HireMe';
 import Projects from './components/Projects/Projects';
 import AboutMe from './components/AboutMe/AboutMe';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const App = () => {
   return (
-    <main className='main-container' id='root-app'>
-      <Navbar />
-      <Hero />
-      <AboutMe />
-      <Skills />
-      <Services />
-      <Projects />
-      <HireMe />
-      <Contacts />
-      <Footer />
-    </main>
+    <Router>
+      <main className='main-container' id='root-app'>
+        <Navbar />
+        <Hero />
+        <AboutMe />
+        <Skills />
+        <Services />
+        <Projects />
+        <HireMe />
+        <Contacts />
+        <Footer />
+      </main>
+    </Router>
   );
 };
 
